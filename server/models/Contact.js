@@ -1,3 +1,4 @@
+// models/Contact.js
 const mongoose = require('mongoose');
 
 const ContactSchema = new mongoose.Schema({
@@ -5,15 +6,15 @@ const ContactSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  organizationName: {
-    type: String,
-    required: true,
-  },
   email: {
     type: String,
     required: true,
   },
-  contact: {
+  reason: {
+    type: String,
+    required: true,
+  },
+  message: {
     type: String,
     required: true,
   },
