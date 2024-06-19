@@ -35,7 +35,7 @@ const Nav = () => {
       <NavbarContent justify="end"  >
         <NavbarItem>
           
-          <Button as={Link} color="primary" href="#" variant="flat" className='text-white font-outfit font-light text-[20px]'
+          <Button as={Link} color="primary" href="#" variant="flat" className='text-white font-outfit font-light text-[20px] -mr-[300px]'
           style={{backgroundColor:"#5233ED", width:"114px", height:"37",borderRadius:"30px",color:"#FFFFFF"}}>
             Contact
           </Button>

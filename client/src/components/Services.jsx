@@ -2,6 +2,7 @@ import { Button } from '@nextui-org/react';
 import React from 'react';
 import line1 from "../assets/Line 1.png"
 import line2 from "../assets/Line 2.png"
+import {motion} from "framer-motion"
 
 const Services = () => {
   return (
@@ -53,77 +54,109 @@ const Services = () => {
             style={{backgroundColor:"#755CF1"}}>
                 <p className='ml-[40px] mt-[10px] text-white text-[28px] font-semibold font-outfit'> Here’s what you will experience after 
                     <span style={{color:"#54FFC6"}}> One Chiropractic </span> 
-                     Session with us</p>
-                     <div className='ml-[40px] mt-[18px]'>
-                        <img src={line1} alt=""/>
-                     </div>
-                     <div className='mt-[-600px] ml-[35px]'>
-                        <img src={line2} alt=""/>
-                     </div>
-                     <div className='w-[350px] h-[50px]  border-black border-[3px] rounded-[30px] ml-[130px] mt-[-30px]' >
-                            <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
-                              style={{ color: "#232269" }}>
-                              Improved Confidence</p>
-                        </div> 
-                 </div>
-                 <div className='mt-[120px] ml-[36px]'>
-                 <img src={line2} alt=""/>
-                 </div>
-                 <div className='w-[450px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
-                 <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
-                 style={{ color: "#232269" }}>
-                  80% relief from Sciatica Pain</p>
-                </div> 
-                <div className='mt-[50px] ml-[36px]'>
-                 <img src={line2} alt=""/>
-                 </div>
-                 <div className='w-[500px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
-                 <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
-                 style={{ color: "#232269" }}>
-                  Your Energy will literally double</p>
-                </div> 
-                <div className='mt-[50px] ml-[36px]'>
-                 <img src={line2} alt=""/>
-                 </div>
-                 <div className='w-[500px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
-                 <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
-                 style={{ color: "#232269" }}>
-                  Posture Correction, yes Instantly!!</p>
-                </div> 
-                <div className='mt-[50px] ml-[36px]'>
-                 <img src={line2} alt=""/>
-                 </div>
-                 <div className='w-[500px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
-                 <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
-                 style={{ color: "#232269" }}>
-                  Deep state of calm and relaxation</p>
-                </div> 
-                <div className='mt-[50px] ml-[36px]'>
-                 <img src={line2} alt=""/>
-                 </div>
-                 <div className='w-[630px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
-                 <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px]  justify-center'
-                 style={{ color: "#232269" }}>
-                  Your Migraine will disappear... Guaranteed!</p>
-                </div> 
-                <div className='mt-[60px] ml-[36px]'>
-                 <img src={line2} alt=""/>
-                 </div>
-                 <div className='w-[770px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
-                 <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
-                 style={{ color: "#232269" }}>
-                  Improvement in Sleep Quality(You will thank us for this)</p>
-                </div> 
-                <div className='mt-[71px] ml-[38px]'>
-                 <img src={line2} alt=""/>
-                 </div>
-                 <div className='w-[870px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
-                 <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
-                 style={{ color: "#232269" }}>
-                  Instant relief from Chronic Back, Neck, Knee and Shoulder Pain</p>
-                </div>  
-               </div>
-         <div className='ml-[30px] mt-[30px]  flex flex-col'>
+                      Session with us</p>
+                      <div className='ml-[40px] mt-[18px]'>
+                          <img src={line1} alt=""/>
+                      </div>
+                      <div className='mt-[-600px] ml-[35px]'>
+                          <img src={line2} alt=""/>
+                      </div>
+                      <motion.div 
+                      initial = {{x: "-100%", opacity: 0}}
+                      viewport={{once: true}}
+                      whileInView={{x:0,opacity: 1, transition: {duration:0.5, type: 'spring', stiffness: 100, damping:15}}}
+                      className='w-[350px] h-[50px]  border-black border-[3px] rounded-[30px] ml-[130px] mt-[-30px]' >
+                              <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
+                                style={{ color: "#232269" }}>
+                                Improved Confidence</p>
+                          </motion.div> 
+                  </div>
+                  <div className='mt-[120px] ml-[36px]'>
+                  <img src={line2} alt=""/>
+                  </div>
+                  <motion.div 
+                  initial = {{x: "-100%", opacity: 0}}
+                  viewport={{once: true}}
+                  whileInView={{x:0,opacity: 1, transition: {duration:0.5, type: 'spring', stiffness: 100, damping:15, delay: 0.2}}}
+                  className='w-[450px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
+                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
+                  style={{ color: "#232269" }}>
+                    80% relief from Sciatica Pain</p>
+                  </motion.div> 
+                  <div className='mt-[50px] ml-[36px]'>
+                  <img src={line2} alt=""/>
+                  </div>
+                  <motion.div 
+                  initial = {{x: "-100%", opacity: 0}}
+                  viewport={{once: true}}
+                  whileInView={{x:0,opacity: 1, transition: {duration:0.5, type: 'spring', stiffness: 100, damping:15, delay: 0.4}}}
+                  className='w-[500px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
+                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
+                  style={{ color: "#232269" }}>
+                    Your Energy will literally double</p>
+                  </motion.div> 
+                  <div className='mt-[50px] ml-[36px]'>
+                  <img src={line2} alt=""/>
+                  </div>
+                  <motion.div 
+                  initial = {{x: "-100%", opacity: 0}}
+                  viewport={{once: true}}
+                  whileInView={{x:0,opacity: 1, transition: {duration:0.5, type: 'spring', stiffness: 100, damping:15, delay: 0.6}}}
+                  className='w-[500px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
+                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
+                  style={{ color: "#232269" }}>
+                    Posture Correction, yes Instantly!!</p>
+                  </motion.div> 
+                  <div className='mt-[50px] ml-[36px]'>
+                  <img src={line2} alt=""/>
+                  </div>
+                  <motion.div 
+                  initial = {{x: "-100%", opacity: 0}}
+                  viewport={{once: true}}
+                  whileInView={{x:0,opacity: 1, transition: {duration:0.5, type: 'spring', stiffness: 100, damping:15, delay: 0.8}}}
+                  className='w-[500px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
+                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
+                  style={{ color: "#232269" }}>
+                    Deep state of calm and relaxation</p>
+                  </motion.div> 
+                  <div className='mt-[50px] ml-[36px]'>
+                  <img src={line2} alt=""/>
+                  </div>
+                  <motion.div 
+                  initial = {{x: "-100%", opacity: 0}}
+                  viewport={{once: true}}
+                  whileInView={{x:0,opacity: 1, transition: {duration:0.5, type: 'spring', stiffness: 100, damping:15, delay: 1}}}
+                  className='w-[630px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
+                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px]  justify-center'
+                  style={{ color: "#232269" }}>
+                    Your Migraine will disappear... Guaranteed!</p>
+                  </motion.div> 
+                  <div className='mt-[60px] ml-[36px]'>
+                  <img src={line2} alt=""/>
+                  </div>
+                  <motion.div 
+                  initial = {{x: "-100%", opacity: 0}}
+                  viewport={{once: true}}
+                  whileInView={{x:0,opacity: 1, transition: {duration:0.5, type: 'spring', stiffness: 100, damping:15, delay: 1.2}}}
+                  className='w-[770px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
+                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
+                  style={{ color: "#232269" }}>
+                    Improvement in Sleep Quality(You will thank us for this)</p>
+                  </motion.div> 
+                  <div className='mt-[71px] ml-[38px]'>
+                  <img src={line2} alt=""/>
+                  </div>
+                  <motion.div 
+                  initial = {{x: "-100%", opacity:0}}
+                  viewport={{once: true}}
+                  whileInView={{x:0,opacity: 1, opacity:1, transition: {duration:0.5, type: 'spring', stiffness: 100, damping:15, delay: 1.4}}}
+                  className='w-[870px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
+                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
+                  style={{ color: "#232269" }}>
+                    Instant relief from Chronic Back, Neck, Knee and Shoulder Pain</p>
+                  </motion.div>  
+                </div>
+          <div className='ml-[30px] mt-[30px]  flex flex-col'>
             <p className='font-semibold text-[28px] font-outfit text-justify mr-[170px]'
             style={{color:"#2D1C82"}}>
             Not exaggerating, your bad posture is doing more harm than you know, poor blood circulation will mess up your hormonal balance and will cause dysfunction of your crucial hormones like dopamine, serotonin and testosterone. With one session you will restart your hormonal engine and meet the new you.

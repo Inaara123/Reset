@@ -19,7 +19,7 @@ const Schedule = () => {
     const handleSubmit = async (e) => {
       e.preventDefault();
       try {
-        await axios.post('http://localhost:5000/schedules', {
+        await axios.post('https://chiropractor-inaara.onrender.com/schedules', {
           fullName,
           contact,
           date: date.toISOString(), // Convert date to ISO string

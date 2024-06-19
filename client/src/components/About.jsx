@@ -6,6 +6,8 @@ import line23 from '../assets/Line 23.png';
 import grp2 from '../assets/Group2.png';
 import grp3 from '../assets/Group3.png';
 
+import {motion} from 'framer-motion';
+
 
 const About = () => {
   return (
@@ -54,11 +56,11 @@ const About = () => {
       </div>
       
       <div 
-        className='ml-[30px] flex mt-[50px] w-[700px] h-[70px] rounded-[30px]'
+        className='ml-[30px] flex mt-[50px] w-[700px] h-[70px] rounded-[30px] items-center justify-center'
         style={{ backgroundColor: "#5233ED" }}
       >
         <p 
-          className='ml-[30px] mt-[10px] font-outfit font-medium text-[32px] text-white'
+          className='font-outfit font-medium text-[32px] text-white'
         >
           Three ways Neurotherapy will impact your life
         </p>
@@ -73,8 +75,11 @@ const About = () => {
         className='ml-[45px] mt-[-190px] flex'
       />
       
-      <div 
-        className='ml-[110px] mt-[-30px] w-[452px] h-[61px] rounded-[30px] brder border-black border-[3px]'
+      <motion.div 
+      initial = {{x:"-100%", opacity: 0}}
+      viewport={{once: true}}
+      whileInView={{x: 0, opacity:1, transition: {staggerChildren: true, delayChildren: 0.2, duration: 0.4, type: 'spring', damping: 12, stiffness:100}}}
+        className='ml-[110px] mt-[-30px] w-[452px] h-[61px] rounded-[30px] border-black border-[3px]'
       >
         <p 
           className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px]'
@@ -96,17 +101,20 @@ const About = () => {
             Effective for treating ADHD.
           </p>
         </div>
-      </div>
+      </motion.div>
       
       <img 
         src={line21}
         className='ml-[45px] mt-[50px] flex'
       />
       
-      <div 
+      <motion.div 
+      initial = {{x:"-100%", opacity:0}}
+      viewport={{once: true}}
+      whileInView={{x: 0, opacity:1, transition: {staggerChildren: true, delayChildren: 0.2, duration: 0.4, type: 'spring', damping: 12, stiffness:100, delay: 0.4}}}
         className='ml-[110px] mt-[-30px] w-[452px] h-[61px] rounded-[30px] brder border-black border-[3px]'
       >
-        <p 
+        <p
           className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px]'
           style={{ color: "#232269" }}
         >
@@ -126,14 +134,17 @@ const About = () => {
             Helps manage symptoms of anxiety and depression.
           </p>
         </div>
-      </div>
+      </motion.div>
       
       <img 
         src={line21}
         className='ml-[45px] mt-[55px] flex'
       />
       
-      <div 
+      <motion.div 
+      initial = {{x:"-100%", opacity: 0}}
+      viewport={{once: true}}
+      whileInView={{x: 0, opacity:1, transition: {staggerChildren: true, delay:0.8, delayChildren: 0.2, duration: 0.4, type: 'spring', damping: 12, stiffness:100}}}
         className='ml-[110px] mt-[-30px] w-[452px] h-[61px] rounded-[30px] brder border-black border-[3px]'
       >
         <p 
@@ -156,7 +167,7 @@ const About = () => {
             Addresses sleep disorders for better rest.
           </p>
         </div>
-      </div>
+      </motion.div>
 
       <div 
         className='ml-0 flex mt-[150px] h-[1000px]' 
@@ -219,7 +230,10 @@ const About = () => {
         className='ml-[45px] mt-[-190px] flex'
       />
       
-      <div 
+      <motion.div 
+      initial = {{x:"-100%", opacity: 0}}
+      viewport={{once: true}}
+      whileInView={{x: 0, opacity:1, transition: {staggerChildren: true, delayChildren: 0.2, duration: 0.4, type: 'spring', damping: 12, stiffness:100}}}
         className='ml-[110px] mt-[-30px] w-[452px] h-[61px] rounded-[30px] brder border-black border-[3px]'
       >
         <p 
@@ -242,14 +256,17 @@ const About = () => {
             Effective for treating chronic pain
           </p>
         </div>
-      </div>
+      </motion.div>
       
       <img 
         src={line21}
         className='ml-[45px] mt-[50px] flex'
       />
       
-      <div 
+      <motion.div 
+      initial = {{x:"-100%", opacity: 0}}
+      viewport={{once: true}}
+      whileInView={{x: 0, opacity:1, transition: {staggerChildren: true, delayChildren: 0.2, duration: 0.4, type: 'spring', damping: 12, stiffness:100, delay: 0.4}}}
         className='ml-[110px] mt-[-30px] w-[452px] h-[61px] rounded-[30px] brder border-black border-[3px]'
       >
         <p 
@@ -272,14 +289,17 @@ const About = () => {
             Promotes relaxation and helps manage stress and anxiety
           </p>
         </div>
-      </div>
+      </motion.div>
       
       <img 
         src={line21}
         className='ml-[45px] mt-[55px] flex'
       />
       
-      <div 
+      <motion.div 
+      initial = {{x:"-100%", opacity: 0}}
+      viewport={{once: true}}
+      whileInView={{x: 0, opacity:1, transition: {staggerChildren: true, delayChildren: 0.2, duration: 0.4, type: 'spring', damping: 12, stiffness:100, delay: 0.8}}}
         className='ml-[110px] mt-[-30px] w-[452px] h-[61px] rounded-[30px] brder border-black border-[3px]'
       >
         <p 
@@ -302,7 +322,7 @@ const About = () => {
             Enhances overall energy levels and supports immune function
           </p>
         </div>
-      </div>
+      </motion.div>
       <div 
         className='ml-0 flex mt-[100px] h-[1000px]' 
         style={{ backgroundColor: "#6D68D2" }}
@@ -327,4 +347,4 @@ const About = () => {
   );
 }
 
-export default About;
+export default About
