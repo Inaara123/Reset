@@ -51,14 +51,23 @@ const Services = () => {
       {/* chiropractor session component */}
         <div className='mt-[50px] ml-[30px]  flex flex-col'>
             <p className='lg:text-[48px] md:text-[48px] sm:text-[48px] xl:text-[54px] 2xl:text-[60px] text-[48px] font-semibold font-outfit' style={{color:"#15155F"}}> Chiropractic Session</p>
-            <div className='h-[70px]   w-[970px] rounded-[30px] mt-[20px]'
+            <div className='h-[70px]   w-[970px] rounded-[30px] mt-[20px]
+            sm:w-[640px]
+            md:w-[800px]
+            lg:w-[970px]'
             style={{backgroundColor:"#755CF1"}}>
                 <p className='ml-[40px] mt-[10px] text-white text-[28px] font-semibold font-outfit
+                              sm:text-[20px] 
+                              md:text-[24px]
+                              lg:text-[28px]
                               '>
                    Here’s what you will experience after 
                     <span style={{color:"#54FFC6"}}> One Chiropractic </span> 
                       Session with us</p>
-                      <div className='ml-[40px] mt-[18px]'>
+                      <div className='ml-[40px] mt-[18px]
+                      sm:mt-0
+                      md:mt-[18px]
+                      lg:mt-[18px]'>
                           <img src={line1} alt=""/>
                       </div>
                       <div className='mt-[-600px] ml-[35px]'>
@@ -68,8 +77,12 @@ const Services = () => {
                       initial = {{x: "-100%", opacity: 0}}
                       viewport={{once: true}}
                       whileInView={{x:0,opacity: 1, transition: {duration:0.5, type: 'spring', stiffness: 100, damping:15}}}
-                      className='w-[350px] h-[50px]  border-black border-[3px] rounded-[30px] ml-[130px] mt-[-30px]' >
-                              <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
+                      className='w-[350px] h-[50px]  border-black border-[3px] rounded-[30px] ml-[130px] mt-[-30px]
+                                  sm:w-[300px]
+                                  lg:w-[350px]' >
+                              <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center
+                              sm:text-[24px]
+                              lg:text-[28px]'
                                 style={{ color: "#232269" }}>
                                 Improved Confidence</p>
                           </motion.div> 
@@ -81,8 +94,12 @@ const Services = () => {
                   initial = {{x: "-100%", opacity: 0}}
                   viewport={{once: true}}
                   whileInView={{x:0,opacity: 1, transition: {duration:0.5, type: 'spring', stiffness: 100, damping:15, delay: 0.2}}}
-                  className='w-[450px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
-                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
+                  className='w-[450px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]
+                              sm:w-[400px]
+                              lg:w-[450px]' >
+                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center
+                  sm:text-[24px]
+                  lg:text-[28px]'
                   style={{ color: "#232269" }}>
                     80% relief from Sciatica Pain</p>
                   </motion.div> 
@@ -93,8 +110,10 @@ const Services = () => {
                   initial = {{x: "-100%", opacity: 0}}
                   viewport={{once: true}}
                   whileInView={{x:0,opacity: 1, transition: {duration:0.5, type: 'spring', stiffness: 100, damping:15, delay: 0.4}}}
-                  className='w-[500px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
-                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
+                  className='w-[500px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]
+                  sm:w-[400px] lg:w-[500px]' >
+                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center sm:text-[24px]
+                              lg:text-[28px]'
                   style={{ color: "#232269" }}>
                     Your Energy will literally double</p>
                   </motion.div> 
@@ -105,8 +124,10 @@ const Services = () => {
                   initial = {{x: "-100%", opacity: 0}}
                   viewport={{once: true}}
                   whileInView={{x:0,opacity: 1, transition: {duration:0.5, type: 'spring', stiffness: 100, damping:15, delay: 0.6}}}
-                  className='w-[500px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
-                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
+                  className='w-[500px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]
+                  sm:w-[450px] lg:w-[500px]' >
+                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center sm:text-[24px]
+                              lg:text-[28px]'
                   style={{ color: "#232269" }}>
                     Posture Correction, yes Instantly!!</p>
                   </motion.div> 
@@ -117,8 +138,10 @@ const Services = () => {
                   initial = {{x: "-100%", opacity: 0}}
                   viewport={{once: true}}
                   whileInView={{x:0,opacity: 1, transition: {duration:0.5, type: 'spring', stiffness: 100, damping:15, delay: 0.8}}}
-                  className='w-[500px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
-                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
+                  className='w-[500px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]
+                  sm:w-[450px] lg:w-[500px]' >
+                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center sm:text-[24px]
+                              lg:text-[28px]'
                   style={{ color: "#232269" }}>
                     Deep state of calm and relaxation</p>
                   </motion.div> 
@@ -129,8 +152,11 @@ const Services = () => {
                   initial = {{x: "-100%", opacity: 0}}
                   viewport={{once: true}}
                   whileInView={{x:0,opacity: 1, transition: {duration:0.5, type: 'spring', stiffness: 100, damping:15, delay: 1}}}
-                  className='w-[630px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
-                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px]  justify-center'
+                  className='w-[630px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]
+                  sm:w-[505px] lg:w-[630px]' >
+                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px]  justify-center sm:text-[24px]
+                                sm:ml-[20px] lg:ml-[40px]
+                              lg:text-[28px]'
                   style={{ color: "#232269" }}>
                     Your Migraine will disappear... Guaranteed!</p>
                   </motion.div> 
@@ -141,10 +167,13 @@ const Services = () => {
                   initial = {{x: "-100%", opacity: 0}}
                   viewport={{once: true}}
                   whileInView={{x:0,opacity: 1, transition: {duration:0.5, type: 'spring', stiffness: 100, damping:15, delay: 1.2}}}
-                  className='w-[770px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
-                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
+                  className='w-[470px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]
+                            lg:w-[470px] 
+                            sm:w-[450px]' >
+                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center sm:text-[24px]
+                              lg:text-[28px]'
                   style={{ color: "#232269" }}>
-                    Improvement in Sleep Quality(You will thank us for this)</p>
+                    Improvement in Sleep Quality</p>
                   </motion.div> 
                   <div className='mt-[71px] ml-[38px]'>
                   <img src={line2} alt=""/>
@@ -153,14 +182,17 @@ const Services = () => {
                   initial = {{x: "-100%", opacity:0}}
                   viewport={{once: true}}
                   whileInView={{x:0,opacity: 1, opacity:1, transition: {duration:0.5, type: 'spring', stiffness: 100, damping:15, delay: 1.4}}}
-                  className='w-[870px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]' >
-                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center'
+                  className='w-[870px] h-[50px] border-[3px] border-black rounded-[30px] ml-[130px] mt-[-30px]
+                              sm:w-[500px] sm:h-[80px]
+                              lg:w-[870px] lg:h-[50px]' >
+                  <p className='ml-[40px] mt-[2px] font-outfit font-semibold text-[28px] justify-center sm:text-[24px] 
+                              lg:text-[28px]'
                   style={{ color: "#232269" }}>
                     Instant relief from Chronic Back, Neck, Knee and Shoulder Pain</p>
                   </motion.div>  
                 </div>
           <div className='ml-[30px] mt-[30px]  flex flex-col'>
-            <p className='font-semibold text-[28px] font-outfit text-justify mr-[170px] sm:mr-[30px] md:mr-[60px] lg:mr-[170px] xl:mr-[180px] 2xl:mr-[190px] '
+            <p className='font-semibold text-[28px] font-outfit text-justify mr-[170px] sm:mr-[30px] md:mr-[60px] lg:mr-[170px] xl:mr-[180px] 2xl:mr-[190px]  '
             style={{color:"#2D1C82"}}>
             Not exaggerating, your bad posture is doing more harm than you know, poor blood circulation will mess up your hormonal balance and will cause dysfunction of your crucial hormones like dopamine, serotonin and testosterone. With one session you will restart your hormonal engine and meet the new you.
             </p>

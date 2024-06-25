@@ -40,7 +40,7 @@ const About = () => {
           </p>
         </div>
       </div>
-        
+       
       
       <div className='mt-[70px] ml-[30px]'>
         <p 
@@ -66,13 +66,16 @@ const About = () => {
       </div>
       
       <div 
-        className='ml-[30px] flex mt-[50px] w-[700px] h-[70px] rounded-[30px] items-center justify-center'
+        className='ml-[30px] flex mt-[50px] w-[700px] h-[70px] rounded-[30px] items-center justify-center
+            sm:w-[640px]
+            lg:w-[700px]'
         style={{ backgroundColor: "#5233ED" }}
       >
         <p 
-          className='font-outfit font-medium text-[32px] text-white'
+          className='font-outfit font-medium text-[32px] text-white   '
+          
         >
-          Three ways Neurotherapy will impact your life
+          Three ways Neurotherapy will impact 
         </p>
       </div>
       
@@ -99,14 +102,14 @@ const About = () => {
         </p>
         <img 
           src={line23}
-          className='ml-[445px] mt-[-20px]'
+          className='ml-[445px] mt-[-20px] hidden lg:block'
         />
         <div 
-          className='ml-[507px] mt-[-35px] w-[442px] h-[59px] flex rounded-[30px]'
+          className='ml-[507px] mt-[-35px] w-[442px] h-[59px] hidden lg:block rounded-[30px]'
           style={{ backgroundColor: "#755CF1" }}
         >
           <p 
-            className='text-white font-outfit font-semibold text-[28px] ml-[40px] mt-[5px]'
+            className='text-white font-outfit font-semibold text-[28px] ml-[40px] pt-[5px]'
           >
             Effective for treating ADHD.
           </p>
@@ -132,14 +135,14 @@ const About = () => {
         </p>
         <img 
           src={line23}
-          className='ml-[445px] mt-[-20px]'
+          className='ml-[445px] mt-[-20px] hidden lg:block'
         />
         <div 
-          className='ml-[507px] mt-[-35px] w-[700px] h-[59px] flex rounded-[30px]'
+          className='ml-[507px] mt-[-35px] w-[700px] h-[59px]  rounded-[30px] hidden lg:block'
           style={{ backgroundColor: "#755CF1" }}
         >
           <p 
-            className='text-white font-outfit font-semibold text-[28px] ml-[40px] mt-[5px]'
+            className='text-white font-outfit font-semibold text-[28px] ml-[40px] pt-[5px] hidden lg:block'
           >
             Helps manage symptoms of anxiety and depression.
           </p>
@@ -165,14 +168,14 @@ const About = () => {
         </p>
         <img 
           src={line23}
-          className='ml-[445px] mt-[-20px]'
+          className='ml-[445px] mt-[-20px] hidden lg:block'
         />
         <div 
-          className='ml-[507px] mt-[-35px] w-[570px] h-[59px] flex rounded-[30px]'
+          className='ml-[507px] mt-[-35px] w-[570px] h-[59px]  rounded-[30px] hidden lg:block'
           style={{ backgroundColor: "#755CF1" }}
         >
           <p 
-            className='text-white font-outfit font-semibold text-[28px] ml-[40px] mt-[5px]'
+            className='text-white font-outfit font-semibold text-[28px] ml-[40px] pt-[5px] hidden lg:block'
           >
             Addresses sleep disorders for better rest.
           </p>
@@ -233,7 +236,10 @@ const About = () => {
         </p>
       </div>
       <div 
-        className='ml-[30px] flex mt-[50px] w-[700px] h-[70px] rounded-[30px]'
+        className='ml-[30px] flex mt-[50px] w-[700px] h-[70px] rounded-[30px]
+        sm:w-[600px]
+        lg:w-[700px]
+        md:w-[700px]'
         style={{ backgroundColor: "#5233ED" }}
       >
         <p 
@@ -266,14 +272,14 @@ const About = () => {
         </p>
         <img 
           src={line23}
-          className='ml-[445px] mt-[-20px]'
+          className='ml-[445px] mt-[-20px] hidden lg:block'
         />
         <div 
-          className='ml-[507px] mt-[-35px] w-[500px] h-[59px] flex rounded-[30px]'
+          className='ml-[507px] mt-[-35px] w-[500px] h-[59px]  rounded-[30px] hidden lg:block '
           style={{ backgroundColor: "#755CF1" }}
         >
           <p 
-            className='text-white font-outfit font-semibold text-[28px] ml-[30px] mt-[5px]'
+            className='text-white font-outfit font-semibold text-[28px] ml-[30px] pt-[5px]'
           >
             Effective for treating chronic pain
           </p>
@@ -299,14 +305,14 @@ const About = () => {
         </p>
         <img 
           src={line23}
-          className='ml-[445px] mt-[-20px]'
+          className='ml-[445px] mt-[-20px] hidden lg:block'
         />
         <div 
-          className='ml-[507px] mt-[-35px] w-[800px] h-[59px] flex rounded-[30px]'
+          className='ml-[507px] mt-[-35px] w-[800px] h-[59px] rounded-[30px] hidden lg:block'
           style={{ backgroundColor: "#755CF1" }}
         >
           <p 
-            className='text-white font-outfit font-semibold text-[28px] ml-[30px] mt-[5px]'
+            className='text-white font-outfit font-semibold text-[28px] ml-[30px] pt-[5px]'
           >
             Promotes relaxation and helps manage stress and anxiety
           </p>
@@ -332,14 +338,14 @@ const About = () => {
         </p>
         <img 
           src={line23}
-          className='ml-[445px] mt-[-20px]'
+          className='ml-[445px] mt-[-20px] hidden lg:block'
         />
         <div 
-          className='ml-[507px] mt-[-35px] w-[820px] h-[59px] flex rounded-[30px]'
+          className='ml-[507px] mt-[-35px] w-[820px] h-[59px]  rounded-[30px] hidden lg:block'
           style={{ backgroundColor: "#755CF1" }}
         >
           <p 
-            className='text-white font-outfit font-semibold text-[28px] ml-[30px] mt-[5px]'
+            className='text-white font-outfit font-semibold text-[28px] ml-[30px] pt-[5px] hidden lg:block '
           >
             Enhances overall energy levels and supports immune function
           </p>
