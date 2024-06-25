@@ -9,7 +9,7 @@ const Services = () => {
 
     <main >
         <div className='ml-0 mt-[50px] w-auto flex flex-col ' style={{ backgroundColor: "#6D68D2" }}>
-      <video controls className="mt-[100px] ml-[100px] w-[1200px] h-[500px] aspect-video rounded-lg border bg-black"  />
+      <video controls className="mt-[100px] ml-[100px] w-auto mr-[100px] h-[500px] aspect-video rounded-lg border bg-black sm:h-[300px] md:h-[350px] lg:h-[500px] xl:h-[600px]"  />
 
       <div className='mt-[30px] text-white ml-[30px] w-[275px] h-[60px] gap-0 font-[outfit] text-[48px] font-semibold leading-[60.48px] text-justify'>
         <p>Our Services</p>
@@ -47,12 +47,15 @@ const Services = () => {
         </div>
       </div>
       </div>
+
       {/* chiropractor session component */}
         <div className='mt-[50px] ml-[30px]  flex flex-col'>
-            <p className='text-[48px] font-semibold font-outfit' style={{color:"#15155F"}}> Chiropractic Session</p>
-            <div className='h-[70px] w-[970px] rounded-[30px] mt-[20px]'
+            <p className='lg:text-[48px] md:text-[48px] sm:text-[48px] xl:text-[54px] 2xl:text-[60px] text-[48px] font-semibold font-outfit' style={{color:"#15155F"}}> Chiropractic Session</p>
+            <div className='h-[70px]   w-[970px] rounded-[30px] mt-[20px]'
             style={{backgroundColor:"#755CF1"}}>
-                <p className='ml-[40px] mt-[10px] text-white text-[28px] font-semibold font-outfit'> Here’s what you will experience after 
+                <p className='ml-[40px] mt-[10px] text-white text-[28px] font-semibold font-outfit
+                              '>
+                   Here’s what you will experience after 
                     <span style={{color:"#54FFC6"}}> One Chiropractic </span> 
                       Session with us</p>
                       <div className='ml-[40px] mt-[18px]'>
@@ -157,7 +160,7 @@ const Services = () => {
                   </motion.div>  
                 </div>
           <div className='ml-[30px] mt-[30px]  flex flex-col'>
-            <p className='font-semibold text-[28px] font-outfit text-justify mr-[170px]'
+            <p className='font-semibold text-[28px] font-outfit text-justify mr-[170px] sm:mr-[30px] md:mr-[60px] lg:mr-[170px] xl:mr-[180px] 2xl:mr-[190px] '
             style={{color:"#2D1C82"}}>
             Not exaggerating, your bad posture is doing more harm than you know, poor blood circulation will mess up your hormonal balance and will cause dysfunction of your crucial hormones like dopamine, serotonin and testosterone. With one session you will restart your hormonal engine and meet the new you.
             </p>

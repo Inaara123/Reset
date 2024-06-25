@@ -1,60 +1,53 @@
-import React from 'react'
-import Contact from '../components/Contact'
-import { FaPhoneAlt } from "react-icons/fa";
+import React from 'react';
+import Contact from '../components/Contact';
+import { FaPhoneAlt, FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa6";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaInstagramSquare } from "react-icons/fa";
-import locationImg from "../assets/location.png"
+import { FaYoutube, FaSquareXTwitter } from "react-icons/fa6";
+import locationImg from "../assets/location.png";
 
 const Footer = () => {
   return (
-    <main className='bg-gradient-to-r  from-gray-50 to-pink-50 shadow-2xl  w-[1300px] h-[800px] mb-[100px]  ml-[80px] rounded-[30px] '>
-        <section>
-            <Contact/>
-        </section>
-        <div className='mt-[-500px]'>
-          <p className='font-outfit font-meduim text-[32px] ml-[600px] mt-[-50px]'
-          style={{color:"#152344"}}>
-            Location
-            </p>
-            <p className='ml-[600px] mt-[30px] mr-[350px] font-outfit font-normal text-[20px]'>
-            KS bakery, back side, Madhava Nagar Colony, Ambedkar Nagar, Hafeezpet, Hyderabad, Telangana 500049
-            </p>
-          
-          
-            <p className='ml-[630px] mt-[30px] mr-[350px] font-outfit font-normal text-[20px]'>
-            +91-9192939495
-            </p>
+    <main className='bg-gradient-to-r from-gray-50 to-pink-50 shadow-2xl w-full lg:w-[1300px] h-auto lg:h-[600px] mb-[100px] mt-[100px] mx-[20px] lg:mx-[80px] rounded-[30px] flex flex-col lg:flex-row'>
+      <section className='w-full lg:w-1/2 p-4'>
+        <Contact />
+      </section>
+      <div className='w-full lg:w-1/2 p-4 flex flex-col items-start lg:items-center'>
+        <p className='font-outfit font-medium text-[32px] ml-[200px] mt-8 lg:mt-[200px] lg:ml-[-600px]' style={{color:"#152344"}}>
+          Location
+        </p>
+        <p className='mt-4 lg:mt-8 lg:ml-[-100px] lg:mr-[350px] text-[20px]
+        ml-[100px] mr-[100px]'>
+          KS bakery, back side, Madhava Nagar Colony, Ambedkar Nagar, Hafeezpet, Hyderabad, Telangana 500049
+        </p>
 
-            <div>
-            <p className='ml-[630px] mt-[30px] mr-[350px] font-outfit font-normal text-[20px]'>
-            resetwellnesscenter@gmail.com
-            </p>
-            </div>
-            <p className='ml-[600px] mt-[80px] mr-[350px] font-outfit font-meduim text-[32px]'>Follow us</p>
-
-            <div className='h-[280px] w-[280px]  rounded-[20px] ml-[1000px] mt-[-400px]'
-            style={{backgroundColor:"#CCDDFF"}}>
-            </div>
-            <div>
-            <img src={locationImg} alt="" height={183} width={183}
-              className='ml-[1050px] mt-[-240px]'/>
-            </div>
+        <p className='mt-4 text-[20px] lg:ml-[-600px] flex flex-row gap-[10px] ml-[100px]'>
+          <FaPhoneAlt className='mt-[8px]' />
+          +91-9192939495
+        </p>
+        <p className='mt-8 text-[20px] lg:ml-[-470px] flex flex-row gap-[20px] ml-[100px]'>
+          <MdEmail className='mt-[10px]'/>
+          resetwellnesscenter@gmail.com
+        </p>
+        <p className='font-outfit font-medium text-[32px] mt-8 lg:ml-[-650px] ml-[100px]' style={{color:"#152344"}}>
+          Follow us
+        </p>
+        <div className='flex flex-row gap-8 mt-4 lg:mt-8 lg:ml-[-520px] ml-[100px]'>
+          <FaFacebookSquare size={40} />
+          <FaYoutube size={40} />
+          <FaSquareXTwitter size={40} />
+          <FaInstagramSquare size={40} />
         </div>
-        <FaPhoneAlt className='ml-[600px] mt-[-30px]' />
-        <MdEmail className='ml-[600px] mt-[43px]' />
-        <div className='flex flex-row gap-8 mt-[150px] ml-[600px]'>
-        <FaFacebookSquare size={40}/>
-        <FaYoutube size={40} />
-        <FaSquareXTwitter size={40}/>
-        <FaInstagramSquare size={40}/>
-
-
+        <div className='relative mt-8 lg:mt-16 w-full flex justify-center'>
+          <div className='h-[280px] w-[280px] rounded-[20px] hidden lg:block
+                            lg:mt-[-430px] lg:ml-[330px]'
+           style={{backgroundColor:"#CCDDFF"}}></div>
+          <img src={locationImg} alt="Location" height={183} width={183} 
+          className=' hidden lg:block absolute top-16
+          lg:mt-[-440px] lg:ml-[330px]' />
         </div>
+      </div>
     </main>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
