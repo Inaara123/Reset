@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        'xsm': '400px',
+        'xsm': '350px',
       },
       fontFamily: {
         outfit: ['Outfit', 'sans-serif'],
