@@ -12,26 +12,26 @@ const Footer = () => {
         <Contact />
       </section>
       <div className='w-full lg:w-1/2 p-4 flex flex-col items-start lg:items-center'>
-        <p className='font-outfit font-medium text-[32px] ml-[200px] mt-8 lg:mt-[200px] lg:ml-[-600px]' style={{color:"#152344"}}>
+        <p className='font-outfit font-medium text-[32px] ml-[200px]  xsm:ml-[70px] sm:ml-[200px] md:ml-[200px] mt-8 lg:mt-[200px] lg:ml-[-600px]' style={{color:"#152344"}}>
           Location
         </p>
-        <p className='mt-4 lg:mt-8 lg:ml-[-100px] lg:mr-[350px] text-[20px]
-        ml-[100px] mr-[100px]'>
+        <p className='mt-4 lg:mt-8 lg:ml-[-130px] xsm:ml-[10px] xsm:mr-[30px] lg:mr-[350px] text-[20px]
+        sm:ml-[100px] md:ml-[100px] sm:mr-[100px] md:mr-[100px] ml-[100px] mr-[100px]'>
           KS bakery, back side, Madhava Nagar Colony, Ambedkar Nagar, Hafeezpet, Hyderabad, Telangana 500049
         </p>
 
-        <p className='mt-4 text-[20px] lg:ml-[-600px] flex flex-row gap-[10px] ml-[100px]'>
+        <p className='mt-4 text-[20px] lg:ml-[-600px] xsm:ml-[10px] flex flex-row gap-[10px]  sm:ml-[100px] md:ml-[100px] sm:mr-[100px] md:mr-[100px] ml-[100px] mr-[100px]'>
           <FaPhoneAlt className='mt-[8px]' />
           +91-9192939495
         </p>
-        <p className='mt-8 text-[20px] lg:ml-[-470px] flex flex-row gap-[20px] ml-[100px]'>
+        <p className='mt-8 text-[20px] lg:ml-[-470px] xsm:ml-[10px] flex flex-row gap-[20px] ml-[100px]  sm:ml-[100px] md:ml-[100px] sm:mr-[100px] md:mr-[100px]  mr-[100px]'>
           <MdEmail className='mt-[10px]'/>
           resetwellnesscenter@gmail.com
         </p>
-        <p className='font-outfit font-medium text-[32px] mt-8 lg:ml-[-650px] ml-[100px]' style={{color:"#152344"}}>
+        <p className='font-outfit font-medium text-[32px] mt-8 xsm:ml-[10px] lg:ml-[-650px]  sm:ml-[100px] md:ml-[100px] sm:mr-[100px] md:mr-[100px] ml-[100px] mr-[100px]' style={{color:"#152344"}}>
           Follow us
         </p>
-        <div className='flex flex-row gap-8 mt-4 lg:mt-8 lg:ml-[-520px] ml-[100px]'>
+        <div className='flex flex-row gap-8 mt-4 lg:mt-8 xsm:ml-[10px] lg:ml-[-520px]  sm:ml-[100px] md:ml-[100px] sm:mr-[100px] md:mr-[100px] ml-[100px] mr-[100px]'>
           <FaFacebookSquare size={40} />
           <FaYoutube size={40} />
           <FaSquareXTwitter size={40} />

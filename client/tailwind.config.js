@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'xsm': '400px',
+      },
       fontFamily: {
         outfit: ['Outfit', 'sans-serif'],
       },

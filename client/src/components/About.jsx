@@ -50,7 +50,7 @@ const About = () => {
           Neurotherapy
         </p>
         <p 
-          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] sm:mr-[100px] md:mr-[150px] lg:mr-[650px]'
+          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[650px]'
           style={{ color: "#15155F" }}
         >
           <span style={{ color: "#0095D9" }}>Experience </span>
@@ -58,7 +58,7 @@ const About = () => {
           calm that you haven't experienced in a long time.
         </p>
         <p 
-          className='mt-[30px] font-outfit font-medium text-[32px] mr-[380px] sm:mr-[80px] md:mr-[120px] lg:mr-[380px]'
+          className='mt-[40px] font-outfit font-medium text-[32px] mr-[380px] xsm:mr-[20px] sm:mr-[80px] md:mr-[120px] lg:mr-[380px]'
           style={{ color: "#15155F" }}
         >
           We understand your life is filled with stress, the fast paced life, office deadlines and a 100 other things that are leaving you completely disturbed.
@@ -220,7 +220,7 @@ const About = () => {
           Acupuncture
         </p>
         <p 
-          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] sm:mr-[100px] md:mr-[150px] lg:mr-[650px]'
+          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[650px]'
           style={{ color: "#15155F" }}
         >
           <span style={{ color: "#00B579" }}>Experience </span>
@@ -229,7 +229,7 @@ const About = () => {
           <span style={{ color: "#00A4EE" }}> well-being</span> 
         </p>
         <p 
-          className='mt-[30px] font-outfit font-medium text-[32px] mr-[380px] sm:mr-[80px] md:mr-[60px] lg:mr-[380px]'
+          className='mt-[30px] font-outfit font-medium text-[32px] mr-[380px] xsm:mr-[10px] sm:mr-[80px] md:mr-[60px] lg:mr-[380px]'
           style={{ color: "#15155F" }}
         >
           We understand that modern life is filled with stress, fast-paced routines, office deadlines, and countless other factors that leave you feeling overwhelmed and out of balance.

@@ -59,7 +59,7 @@ const Doctor = () => {
         </div>
         {/* testimonials */}
         <div className='ml-[30px] mt-[80px] sm:mt-[200px] md:mt-[200px] lg:mt-[80px] '>
-            <p className='font-bold text-[40px] sm:text-[40px] lg:text-[40px] md:text-[40px] 2xl:text-[50px]'
+            <p className='font-bold text-[40px] xsm:text-[20px] sm:text-[40px] lg:text-[40px] md:text-[40px] 2xl:text-[50px]'
             style={{color:"#15155F"}}>
                 What our patients absolutely love about us!
             </p>

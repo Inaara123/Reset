@@ -11,7 +11,7 @@ const Main = () => {
 
   return (
     <main className='grid-auto p-4 md:p-8 lg:p-12'>
-      <section className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl mt-[90px] ml-[30px] font-black text-justify max-w-[754px]" style={{ color: "#15155F" }}>
+      <section className="text-4xl xsm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl mt-[90px] ml-[30px] font-black text-justify max-w-[754px]" style={{ color: "#15155F" }}>
         Don’t let your pain stop you from living the life you want!
       </section>
 
@@ -53,7 +53,7 @@ const Main = () => {
         </div>
       </section>
 
-      <div className='text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mt-[-60px] sm:mt-[30px] md:mt-[30px]  ml-[30px] max-w-[800px]'>
+      <div className='text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mt-[-60px] sm:mt-[30px] xsm:mt-[50px] md:mt-[30px]  ml-[30px] max-w-[800px]'>
         <p>Relieve chronic pain <span style={{ color: "#755CF1", font: "outfit", fontWeight: "700" }}>instantly</span> with the best <span style={{ color: "#21A5B4" }}>chiropractic</span> and <span style={{ color: "#00B579" }}>neuropathy</span> services in Hyderabad!!</p>
       </div>
 
@@ -61,7 +61,8 @@ const Main = () => {
         <Button 
           onClick={handleClick}
           color="primary"
-          className='w-[305px] h-[67px] rounded-[30px] text-[25px] grid-auto-fit bg-[#5233ED] mb-4 sm:mb-0'
+          className='w-[305px] h-[67px] rounded-[30px] text-[25px] grid-auto-fit bg-[#5233ED] mb-4 sm:mb-0
+          xsm:w-[250px] xsm:text-[20px] xsm:h-[55px] '
           style={{ backgroundColor: "#5233ED", font: "outfit", fontWeight: "600" }}        
         >
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-8">
@@ -72,7 +73,7 @@ const Main = () => {
         <Button 
           color="primary" 
           variant="bordered" 
-          className='w-[305px] h-[67px] border-3 border-[#5233ED] text-[#5233ED] rounded-[30px] text-[25px]'
+          className='w-[305px] h-[67px] border-3 border-[#5233ED] text-[#5233ED] rounded-[30px] text-[25px] xsm:w-[250px] xsm:text-[20px] xsm:h-[55px]'
           style={{ color: "#5233ED", font: "outfit", fontWeight: "600" }}
         >
           Contact us
