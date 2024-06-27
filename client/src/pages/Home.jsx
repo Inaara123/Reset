@@ -5,11 +5,12 @@ import Services from '../components/Services'
 import About from '../components/About'
 import Doctor from '../components/Doctor'
 import Footer from './Footer'
+import Header from '../components/Header'
 
 const Home = () => {
   return (
     <>
-    <Nav/>
+    <Header/>
     <Main/>
     <Services/>
     <About/>
