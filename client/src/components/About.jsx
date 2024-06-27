@@ -12,33 +12,21 @@ const About = () => {
   return (
     <main className='mb-[80px] '>
       <div 
-        className='ml-0 flex mt-[100px] h-[1000px]
-        sm:h-[800px]
-        lg:h-[1000px]' 
+        className='ml-0 flex mt-[100px] h-auto' 
         style={{ backgroundColor: "#6D68D2" }}
       >
-        <div 
-          className='h-[750px] w-[1000px] ml-[230px] mr-[100px] rounded-[30px] mt-[100px]
-              sm:w-[550px] sm:h-[500px] sm:ml-[100px] sm:mr-[40px]
-              md:w-[650] md:h-[550px] md:ml-[140px] md:mr-[60px]
-              lg:h-[750px] lg:w-[1000px] lg:ml-[230px] lg:mr-[100px]'
-          style={{ backgroundColor: "#B69CFF" }}
-        >
-          <img 
-            src={grp1}
-            className='ml-[50px] mt-[50px] mb-[40px] rounded-sm
-            sm:ml-[30px] sm:mt-[70px] sm:w-[490px]
-            md:ml-[40px] md:mt-[60px] md:w-[500px] 
-            lg:ml-[50px] lg:mt-[50px] lg:mb-[40px] lg:w-[900px]' 
-          />
-          <p 
-            className='text-white font-outfit font-extrabold text-[60px] mt-[-330px] ml-[80px] mr-[200px]
-            sm:text-[40px] sm:mr-[100px]
-            lg:text-[60px] lg:mt-[-330px] lg:ml-[80px] lg:mr-[200px]'
-          >
-             Ever wondered why your back and neck pain isn’t going away?? 
-          </p>
-        </div>
+       <div 
+        className='mx-auto my-8 sm:my-12 lg:my-16 max-w-full sm:max-w-lg lg:max-w-2xl rounded-[30px] p-4' 
+        style={{ backgroundColor: "#B69CFF" }}
+        
+    >
+        <img 
+            className='w-full h-auto rounded-[30px]' 
+            src={grp1} 
+            alt="Image Description"
+            
+        />
+    </div>
       </div>
        
       
@@ -50,7 +38,8 @@ const About = () => {
           Neurotherapy
         </p>
         <p 
-          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[650px]'
+          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[650px]
+          lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]'
           style={{ color: "#15155F" }}
         >
           <span style={{ color: "#0095D9" }}>Experience </span>
@@ -58,7 +47,8 @@ const About = () => {
           calm that you haven't experienced in a long time.
         </p>
         <p 
-          className='mt-[40px] font-outfit font-medium text-[32px] mr-[380px] xsm:mr-[20px] sm:mr-[80px] md:mr-[120px] lg:mr-[380px]'
+          className='mt-[40px] font-outfit font-medium text-[32px] mr-[380px] xsm:mr-[20px] sm:mr-[80px] md:mr-[120px] lg:mr-[380px]
+          lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]'
           style={{ color: "#15155F" }}
         >
           We understand your life is filled with stress, the fast paced life, office deadlines and a 100 other things that are leaving you completely disturbed.
@@ -67,12 +57,14 @@ const About = () => {
       
       <div 
         className='ml-[30px] flex mt-[50px] w-[700px] h-[70px] rounded-[30px] items-center justify-center
+            xsm:w-[330px]
             sm:w-[640px]
             lg:w-[700px]'
         style={{ backgroundColor: "#5233ED" }}
       >
         <p 
-          className='font-outfit font-medium text-[32px] text-white   '
+          className='font-outfit font-medium text-[32px] text-white 
+          xsm:text-[18px] md:text-[32px sm:text-[32px] lg:text-[32px] '
           
         >
           Three ways Neurotherapy will impact 
@@ -92,10 +84,11 @@ const About = () => {
       initial = {{x:"-100%", opacity: 0}}
       viewport={{once: true}}
       whileInView={{x: 0, opacity:1, transition: {staggerChildren: true, delayChildren: 0.2, duration: 0.4, type: 'spring', damping: 12, stiffness:100}}}
-        className='ml-[110px] mt-[-30px] w-[452px] h-[61px] rounded-[30px] border-black border-[3px]'
+        className='ml-[110px] mt-[-30px] w-[452px] h-[61px] rounded-[30px] border-black border-[3px]
+        xsm:w-[270px] sm:w-[452px] md:w-[452px] lg:w-[452px]'
       >
         <p 
-          className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px]'
+          className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px] xsm:text-[18px] sm:text-[28px] md:text-[28px] lg:text-[28px]'
           style={{ color: "#232269" }}
         >
           Improves Attention and Focus
@@ -125,10 +118,12 @@ const About = () => {
       initial = {{x:"-100%", opacity:0}}
       viewport={{once: true}}
       whileInView={{x: 0, opacity:1, transition: {staggerChildren: true, delayChildren: 0.2, duration: 0.4, type: 'spring', damping: 12, stiffness:100, delay: 0.4}}}
-        className='ml-[110px] mt-[-30px] w-[452px] h-[61px] rounded-[30px] brder border-black border-[3px]'
+        className='ml-[110px] mt-[-30px] w-[452px] h-[61px] rounded-[30px] brder border-black border-[3px]
+        xsm:w-[270px] sm:w-[452px] md:w-[452px] lg:w-[452px]'
       >
         <p
-          className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px]'
+          className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px]
+          xsm:text-[18px] sm:text-[28px] md:text-[28px] lg:text-[28px]'
           style={{ color: "#232269" }}
         >
           Reduces Anxiety and Depression
@@ -158,10 +153,12 @@ const About = () => {
       initial = {{x:"-100%", opacity: 0}}
       viewport={{once: true}}
       whileInView={{x: 0, opacity:1, transition: {staggerChildren: true, delay:0.8, delayChildren: 0.2, duration: 0.4, type: 'spring', damping: 12, stiffness:100}}}
-        className='ml-[110px] mt-[-30px] w-[452px] h-[61px] rounded-[30px] brder border-black border-[3px]'
+        className='ml-[110px] mt-[-30px] w-[452px] h-[61px] rounded-[30px] brder border-black border-[3px]
+        xsm:w-[270px] sm:w-[452px] md:w-[452px] lg:w-[452px]'
       >
         <p 
-          className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px]'
+          className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px]
+          xsm:text-[18px] sm:text-[28px] md:text-[28px] lg:text-[28px]'
           style={{ color: "#232269" }}
         >
           Enhances Sleep Quality
@@ -182,34 +179,21 @@ const About = () => {
         </div>
       </motion.div>
       <div 
-        className='ml-0 flex mt-[100px] h-[1000px]
-        sm:h-[800px]
-        lg:h-[1000px]' 
+        className='ml-0 flex mt-[100px] h-auto' 
         style={{ backgroundColor: "#6D68D2" }}
       >
-        <div 
-          className='h-[750px] w-[1000px] ml-[230px] mr-[100px] rounded-[30px] mt-[100px]
-              sm:w-[550px] sm:h-[500px] sm:ml-[100px] sm:mr-[40px]
-              md:w-[650] md:h-[550px] md:ml-[140px] md:mr-[60px]
-              lg:h-[750px] lg:w-[1000px] lg:ml-[230px] lg:mr-[100px]'
-          style={{ backgroundColor: "#B69CFF" }}
-        >
-          <img 
-            src={grp2}
-            className='ml-[50px] mt-[50px] mb-[40px] rounded-sm
-            sm:ml-[30px] sm:mt-[70px] sm:w-[490px]
-            md:ml-[40px] md:mt-[60px] md:w-[500px] 
-            lg:ml-[50px] lg:mt-[50px] lg:mb-[40px] lg:w-[900px]' 
-          />
-          <p 
-            className='text-white font-outfit font-extrabold text-[60px] mt-[-330px] ml-[80px] mr-[200px]
-            sm:text-[40px] sm:mr-[100px]
-            lg:text-[60px] lg:mt-[-330px] lg:ml-[80px] lg:mr-[200px]'
-          >
-            Always Stressed?? <br />
-            Try these quick tips out
-          </p>
-        </div>
+       <div 
+        className='mx-auto my-8 sm:my-12 lg:my-16 max-w-full sm:max-w-lg lg:max-w-2xl rounded-[30px] p-4' 
+        style={{ backgroundColor: "#B69CFF" }}
+        
+    >
+        <img 
+            className='w-full h-auto rounded-[30px]' 
+            src={grp2} 
+            alt="Image Description"
+            
+        />
+    </div>
       </div>
       
       <div className='mt-[70px] ml-[30px]'>
@@ -220,7 +204,8 @@ const About = () => {
           Acupuncture
         </p>
         <p 
-          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[650px]'
+          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[650px]
+          lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]'
           style={{ color: "#15155F" }}
         >
           <span style={{ color: "#00B579" }}>Experience </span>
@@ -229,7 +214,8 @@ const About = () => {
           <span style={{ color: "#00A4EE" }}> well-being</span> 
         </p>
         <p 
-          className='mt-[30px] font-outfit font-medium text-[32px] mr-[380px] xsm:mr-[10px] sm:mr-[80px] md:mr-[60px] lg:mr-[380px]'
+          className='mt-[30px] font-outfit font-medium text-[32px] mr-[380px] xsm:mr-[10px] sm:mr-[80px] md:mr-[60px] lg:mr-[380px]
+          lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]'
           style={{ color: "#15155F" }}
         >
           We understand that modern life is filled with stress, fast-paced routines, office deadlines, and countless other factors that leave you feeling overwhelmed and out of balance.
@@ -237,15 +223,17 @@ const About = () => {
       </div>
       <div 
         className='ml-[30px] flex mt-[50px] w-[700px] h-[70px] rounded-[30px]
+        xsm:w-[330px]
         sm:w-[600px]
         lg:w-[700px]
         md:w-[700px]'
         style={{ backgroundColor: "#5233ED" }}
       >
         <p 
-          className='ml-[30px] mt-[10px] font-outfit font-medium text-[32px] text-white'
+          className='ml-[30px] mt-[10px] font-outfit font-medium text-[32px] text-white
+           xsm:text-[18px] md:text-[32px sm:text-[32px] lg:text-[32px]'
         >
-          Three ways Acupuncture will impact your life
+          Three ways Acupuncture will impact 
         </p>
       </div>
       
@@ -262,10 +250,12 @@ const About = () => {
       initial = {{x:"-100%", opacity: 0}}
       viewport={{once: true}}
       whileInView={{x: 0, opacity:1, transition: {staggerChildren: true, delayChildren: 0.2, duration: 0.4, type: 'spring', damping: 12, stiffness:100}}}
-        className='ml-[110px] mt-[-30px] w-[452px] h-[61px] rounded-[30px] brder border-black border-[3px]'
+        className='ml-[110px] mt-[-30px] w-[452px] h-[61px] rounded-[30px] brder border-black border-[3px]
+        xsm:w-[270px] sm:w-[452px] md:w-[452px] lg:w-[452px]'
       >
         <p 
-          className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px]'
+          className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px]
+           xsm:text-[18px] sm:text-[28px] md:text-[28px] lg:text-[28px]'
           style={{ color: "#232269" }}
         >
           Relieves Pain and Discomfort
@@ -295,10 +285,12 @@ const About = () => {
       initial = {{x:"-100%", opacity: 0}}
       viewport={{once: true}}
       whileInView={{x: 0, opacity:1, transition: {staggerChildren: true, delayChildren: 0.2, duration: 0.4, type: 'spring', damping: 12, stiffness:100, delay: 0.4}}}
-        className='ml-[110px] mt-[-30px] w-[452px] h-[61px] rounded-[30px] brder border-black border-[3px]'
+        className='ml-[110px] mt-[-30px] w-[452px] h-[61px] rounded-[30px] brder border-black border-[3px]
+        xsm:w-[270px] sm:w-[452px] md:w-[452px] lg:w-[452px]'
       >
         <p 
-          className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px]'
+          className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px]
+          xsm:text-[18px] sm:text-[28px] md:text-[28px] lg:text-[28px]'
           style={{ color: "#232269" }}
         >
           Reduces Stress and Anxiety
@@ -328,10 +320,12 @@ const About = () => {
       initial = {{x:"-100%", opacity: 0}}
       viewport={{once: true}}
       whileInView={{x: 0, opacity:1, transition: {staggerChildren: true, delayChildren: 0.2, duration: 0.4, type: 'spring', damping: 12, stiffness:100, delay: 0.8}}}
-        className='ml-[110px] mt-[-30px] w-[452px] h-[61px] rounded-[30px] brder border-black border-[3px]'
+        className='ml-[110px] mt-[-30px] w-[452px] h-[61px] rounded-[30px] brder border-black border-[3px]
+        xsm:w-[270px] sm:w-[452px] md:w-[452px] lg:w-[452px]'
       >
         <p 
-          className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px]'
+          className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px]
+          xsm:text-[18px] sm:text-[28px] md:text-[28px] lg:text-[28px]'
           style={{ color: "#232269" }}
         >
           Boosts Energy and Vitality
@@ -352,33 +346,21 @@ const About = () => {
         </div>
       </motion.div>
       <div 
-        className='ml-0 flex mt-[100px] h-[1000px]
-        sm:h-[800px]
-        lg:h-[1000px]' 
+        className='ml-0 flex mt-[100px] h-auto' 
         style={{ backgroundColor: "#6D68D2" }}
       >
-        <div 
-          className='h-[750px] w-[1000px] ml-[230px] mr-[100px] rounded-[30px] mt-[100px]
-              sm:w-[550px] sm:h-[500px] sm:ml-[100px] sm:mr-[40px]
-              md:w-[650] md:h-[550px] md:ml-[140px] md:mr-[60px]
-              lg:h-[750px] lg:w-[1000px] lg:ml-[230px] lg:mr-[100px]'
-          style={{ backgroundColor: "#B69CFF" }}
-        >
-          <img 
-            src={grp3}
-            className='ml-[50px] mt-[50px] mb-[40px] rounded-sm
-            sm:ml-[30px] sm:mt-[70px] sm:w-[490px]
-            md:ml-[40px] md:mt-[60px] md:w-[500px] 
-            lg:ml-[50px] lg:mt-[50px] lg:mb-[40px] lg:w-[900px]' 
-          />
-          <p 
-            className='text-white font-outfit font-extrabold text-[60px] mt-[-330px] ml-[80px] mr-[200px]
-            sm:text-[40px] sm:mr-[100px]
-            lg:text-[60px] lg:mt-[-330px] lg:ml-[80px] lg:mr-[200px]'
-          >
-            Here’s how Acupuncture can help you become stress free!
-          </p>
-        </div>
+       <div 
+        className='mx-auto my-8 sm:my-12 lg:my-16 max-w-full sm:max-w-lg lg:max-w-2xl rounded-[30px] p-4' 
+        style={{ backgroundColor: "#B69CFF" }}
+        
+    >
+        <img 
+            className='w-full h-auto rounded-[30px]' 
+            src={grp3} 
+            alt="Image Description"
+            
+        />
+    </div>
       </div>
 
     </main>

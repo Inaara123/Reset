@@ -7,7 +7,7 @@ import locationImg from "../assets/location.png";
 
 const Footer = () => {
   return (
-    <main className='bg-gradient-to-r from-gray-50 to-pink-50 shadow-2xl w-full lg:w-[1300px] h-auto lg:h-[600px] mb-[100px] mt-[100px] mx-[20px] lg:mx-[80px] rounded-[30px] flex flex-col lg:flex-row'>
+    <main className='bg-gradient-to-r from-gray-50 to-pink-50 shadow-2xl w-auto lg:w-[1300px] h-auto lg:h-[600px] mb-[100px] mt-[100px] mx-[20px] lg:mx-[80px] rounded-[30px] flex flex-col lg:flex-row'>
       <section className='w-full lg:w-1/2 p-4'>
         <Contact />
       </section>
@@ -15,16 +15,16 @@ const Footer = () => {
         <p className='font-outfit font-medium text-[32px] ml-[200px]  xsm:ml-[70px] sm:ml-[200px] md:ml-[200px] mt-8 lg:mt-[200px] lg:ml-[-600px]' style={{color:"#152344"}}>
           Location
         </p>
-        <p className='mt-4 lg:mt-8 lg:ml-[-130px] xsm:ml-[10px] xsm:mr-[30px] lg:mr-[350px] text-[20px]
+        <p className='mt-4 lg:mt-8 lg:ml-[-130px] xsm:ml-[10px] xsm:mr-[30px] lg:mr-[350px] text-[18px]
         sm:ml-[100px] md:ml-[100px] sm:mr-[100px] md:mr-[100px] ml-[100px] mr-[100px]'>
           KS bakery, back side, Madhava Nagar Colony, Ambedkar Nagar, Hafeezpet, Hyderabad, Telangana 500049
         </p>
 
-        <p className='mt-4 text-[20px] lg:ml-[-600px] xsm:ml-[10px] flex flex-row gap-[10px]  sm:ml-[100px] md:ml-[100px] sm:mr-[100px] md:mr-[100px] ml-[100px] mr-[100px]'>
+        <p className='mt-4 text-[20px] xsm:text-[18px] lg:ml-[-600px] xsm:ml-[10px] flex flex-row gap-[10px]  sm:ml-[100px] md:ml-[100px] sm:mr-[100px] md:mr-[100px] ml-[100px] mr-[100px]'>
           <FaPhoneAlt className='mt-[8px]' />
           +91-9192939495
         </p>
-        <p className='mt-8 text-[20px] lg:ml-[-470px] xsm:ml-[10px] flex flex-row gap-[20px] ml-[100px]  sm:ml-[100px] md:ml-[100px] sm:mr-[100px] md:mr-[100px]  mr-[100px]'>
+        <p className='mt-8 text-[20px] xsm:text-[18px] lg:ml-[-470px] xsm:ml-[10px] flex flex-row gap-[20px] ml-[100px]  sm:ml-[100px] md:ml-[100px] sm:mr-[100px] md:mr-[100px]  mr-[100px]'>
           <MdEmail className='mt-[10px]'/>
           resetwellnesscenter@gmail.com
         </p>
