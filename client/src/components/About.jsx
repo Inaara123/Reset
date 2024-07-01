@@ -13,11 +13,11 @@ const About = () => {
     <main className='mb-[80px] '>
       <div 
         className='ml-0 flex mt-[100px] h-auto' 
-        style={{ backgroundColor: "#6D68D2" }}
+        style={{ backgroundColor: "#6C6C6C" }}
       >
        <div 
         className='mx-auto my-8 sm:my-12 lg:my-16 max-w-full sm:max-w-lg lg:max-w-2xl rounded-[30px] p-4' 
-        style={{ backgroundColor: "#B69CFF" }}
+        style={{ backgroundColor: "#3C3C3C" }}
         
     >
         <img 
@@ -49,7 +49,7 @@ const About = () => {
         <p 
           className='mt-[40px] font-outfit font-medium text-[32px] mr-[380px] xsm:mr-[20px] sm:mr-[80px] md:mr-[120px] lg:mr-[380px]
           lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]'
-          style={{ color: "#15155F" }}
+          style={{ color: "#33730C" }}
         >
           We understand your life is filled with stress, the fast paced life, office deadlines and a 100 other things that are leaving you completely disturbed.
         </p>
@@ -60,7 +60,7 @@ const About = () => {
             xsm:w-[330px]
             sm:w-[640px]
             lg:w-[700px]'
-        style={{ backgroundColor: "#5233ED" }}
+        style={{ backgroundColor: "#333333" }}
       >
         <p 
           className='font-outfit font-medium text-[32px] text-white 
@@ -99,7 +99,7 @@ const About = () => {
         />
         <div 
           className='ml-[507px] mt-[-35px] w-[442px] h-[59px] hidden lg:block rounded-[30px]'
-          style={{ backgroundColor: "#755CF1" }}
+          style={{ backgroundColor: "#333333" }}
         >
           <p 
             className='text-white font-outfit font-semibold text-[28px] ml-[40px] pt-[5px]'
@@ -134,7 +134,7 @@ const About = () => {
         />
         <div 
           className='ml-[507px] mt-[-35px] w-[700px] h-[59px]  rounded-[30px] hidden lg:block'
-          style={{ backgroundColor: "#755CF1" }}
+          style={{ backgroundColor: "#333333" }}
         >
           <p 
             className='text-white font-outfit font-semibold text-[28px] ml-[40px] pt-[5px] hidden lg:block'
@@ -169,7 +169,7 @@ const About = () => {
         />
         <div 
           className='ml-[507px] mt-[-35px] w-[570px] h-[59px]  rounded-[30px] hidden lg:block'
-          style={{ backgroundColor: "#755CF1" }}
+          style={{ backgroundColor: "#333333" }}
         >
           <p 
             className='text-white font-outfit font-semibold text-[28px] ml-[40px] pt-[5px] hidden lg:block'
@@ -180,11 +180,11 @@ const About = () => {
       </motion.div>
       <div 
         className='ml-0 flex mt-[100px] h-auto' 
-        style={{ backgroundColor: "#6D68D2" }}
+        style={{ backgroundColor: "#6C6C6C" }}
       >
        <div 
         className='mx-auto my-8 sm:my-12 lg:my-16 max-w-full sm:max-w-lg lg:max-w-2xl rounded-[30px] p-4' 
-        style={{ backgroundColor: "#B69CFF" }}
+        style={{ backgroundColor: "#3C3C3C" }}
         
     >
         <img 
@@ -227,7 +227,7 @@ const About = () => {
         sm:w-[600px]
         lg:w-[700px]
         md:w-[700px]'
-        style={{ backgroundColor: "#5233ED" }}
+        style={{ backgroundColor: "#333333" }}
       >
         <p 
           className='ml-[30px] mt-[10px] font-outfit font-medium text-[32px] text-white
@@ -266,7 +266,7 @@ const About = () => {
         />
         <div 
           className='ml-[507px] mt-[-35px] w-[500px] h-[59px]  rounded-[30px] hidden lg:block '
-          style={{ backgroundColor: "#755CF1" }}
+          style={{ backgroundColor: "#333333" }}
         >
           <p 
             className='text-white font-outfit font-semibold text-[28px] ml-[30px] pt-[5px]'
@@ -301,7 +301,7 @@ const About = () => {
         />
         <div 
           className='ml-[507px] mt-[-35px] w-[800px] h-[59px] rounded-[30px] hidden lg:block'
-          style={{ backgroundColor: "#755CF1" }}
+          style={{ backgroundColor: "#333333" }}
         >
           <p 
             className='text-white font-outfit font-semibold text-[28px] ml-[30px] pt-[5px]'
@@ -336,7 +336,7 @@ const About = () => {
         />
         <div 
           className='ml-[507px] mt-[-35px] w-[820px] h-[59px]  rounded-[30px] hidden lg:block'
-          style={{ backgroundColor: "#755CF1" }}
+          style={{ backgroundColor: "#333333" }}
         >
           <p 
             className='text-white font-outfit font-semibold text-[28px] ml-[30px] pt-[5px] hidden lg:block '
@@ -347,11 +347,11 @@ const About = () => {
       </motion.div>
       <div 
         className='ml-0 flex mt-[100px] h-auto' 
-        style={{ backgroundColor: "#6D68D2" }}
+        style={{ backgroundColor: "#6C6C6C" }}
       >
        <div 
         className='mx-auto my-8 sm:my-12 lg:my-16 max-w-full sm:max-w-lg lg:max-w-2xl rounded-[30px] p-4' 
-        style={{ backgroundColor: "#B69CFF" }}
+        style={{ backgroundColor: "#3C3C3C" }}
         
     >
         <img 

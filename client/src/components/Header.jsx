@@ -8,7 +8,7 @@ import logo from '../assets/logo.png'
 const Header = () => {
   return (
     <div>
-      <Navbar expand="lg" className="bg-body-tertiary sticky">
+      <Navbar expand="lg" className="navbar-custom shadow-2xl">
         <Container>
           <Navbar.Brand href="#home">
             <img src={logo} alt="Logo" width="70" height="70" className="d-inline-block align-top" />

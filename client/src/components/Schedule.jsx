@@ -64,7 +64,7 @@ const Schedule = () => {
       };
   return (
     <div className=" min-h-screen flex items-center justify-center">
-    <div className="bg-gradient-to-r from-gray-50 to-pink-50 shadow-md rounded-lg p-4 md:p-8 md:flex">
+    <div className="  shadow-md rounded-lg p-4 md:p-8 md:flex">
       <div className="w-full md:w-1/2 p-4">
         <Calendar
           className="mx-auto rounded-sm mt-[10px] shadow-[0px_10px_1px_rgba(221,_221,_221,_1),_0_10px_20px_rgba(204,_204,_204,_1)] transition-all duration-300 hover:scale-110"

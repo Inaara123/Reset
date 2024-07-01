@@ -11,6 +11,11 @@ export default {
       screens: {
         'xsm': '350px',
       },
+      colors: {
+        'custom-blue': '#152344', 
+        'custome-grey':"#53586F",
+        'custom-black':"#333333"
+      },
       fontFamily: {
         outfit: ['Outfit', 'sans-serif'],
       },
