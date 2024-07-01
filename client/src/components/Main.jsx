@@ -8,6 +8,10 @@ const Main = () => {
   const handleClick = () => {
     navigate('/schedule');
   };
+
+  const handleWhatsAppClick = () => {
+    window.open('https://wa.me/7396888150', '_blank');
+  };
   
 
   return (
@@ -76,7 +80,8 @@ const Main = () => {
           variant="bordered" 
           className='w-[305px] h-[67px] border-3 border-[#5233ED] text-[#5233ED] rounded-[30px] text-[25px] xsm:w-[250px] xsm:text-[20px] xsm:h-[55px]'
           style={{ color: "#5233ED", font: "outfit", fontWeight: "600" }}
-        >
+          onClick={handleWhatsAppClick}>
+          
           Contact us
         </Button>
       </div>

@@ -6,6 +6,12 @@ import Button from 'react-bootstrap/Button';
 import logo from '../assets/logo.png'
 
 const Header = () => {
+ 
+
+  const handleWhatsAppClick = () => {
+    // Replace 'whatsappphonenumber' with your actual WhatsApp number including the country code.
+    window.open('https://wa.me/7396888150', '_blank');
+  };
   return (
     <div>
       <Navbar expand="lg" className="navbar-custom shadow-2xl">
@@ -25,7 +31,14 @@ const Header = () => {
             
           
             <Button variant="primary" href="#contact" className='text-white font-outfit font-light text-[18px] rounded-[30px]text-centre hidden lg:block '
-            style={{backgroundColor:"#5233ED", width:"114px", height:"50",borderRadius:"30px",color:"#FFFFFF"}}
+            style={{
+              backgroundColor:"#5233ED",
+               width:"114px",
+                height:"50",
+                borderRadius:"30px"
+                ,color:"#FFFFFF"
+              }}
+              onClick={handleWhatsAppClick}
             >Contact</Button>
           </Navbar.Collapse>
         </Container>
