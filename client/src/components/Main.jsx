@@ -21,7 +21,7 @@ const Main = () => {
       </section>
 
       <section>
-        <div className='hidden lg:block w-[295px] h-[295px] mt-[-200px] ml-[982px]   bg-gradient-to-b from-green-100 to-green-300 opacity-100 rounded-[200px] border-extra transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none gap-[10px]'>
+        <div className='hidden lg:block w-[295px] h-[295px] mt-[-200px] ml-[982px]   bg-gradient-to-b from-green-100 to-green-300 opacity-100 rounded-[200px] border-opacity-0 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none gap-[10px]'>
           <motion.div 
             initial ={{x:'-100%', scale:0}}
             whileInView={{x:0, scale:1, transition: {type: 'spring', duration:0.8, stiffness: 100, damping: 10}}}

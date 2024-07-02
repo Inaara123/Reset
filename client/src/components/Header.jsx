@@ -9,12 +9,11 @@ const Header = () => {
  
 
   const handleWhatsAppClick = () => {
-    // Replace 'whatsappphonenumber' with your actual WhatsApp number including the country code.
     window.open('https://wa.me/7396888150', '_blank');
   };
   return (
     <div>
-      <Navbar expand="lg" className="navbar-custom shadow-2xl">
+      <Navbar expand="lg" className="navbar-custom shadow-2xl ">
         <Container>
           <Navbar.Brand href="#home">
             <img src={logo} alt="Logo" width="70" height="70" className="d-inline-block align-top" />
