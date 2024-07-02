@@ -38,7 +38,7 @@ const About = () => {
           Neurotherapy
         </p>
         <p 
-          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[100px] xl:mr-[130px] 2xl:mr-[140px]
+          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[100px] xl:mr-[130px] 2xl:mr-[180px]
           lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]
           ml-[20px] lg:ml-[250px] xl:ml-[250px] 2xl:ml-[250px] xsm:ml-[20px] sm:ml-[20px] md:ml-[20px]'
           style={{ color: "rgba(51, 51, 51, 1)" }}
@@ -206,7 +206,7 @@ const About = () => {
           Acupuncture
         </p>
         <p 
-          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[190px] xl:mr-[230px] 2xl:mr-[230px]
+          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[190px] xl:mr-[260px] 2xl:mr-[260px]
           lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]
           ml-[20px] lg:ml-[250px] xl:ml-[250px] 2xl:ml-[250px] xsm:ml-[20px] sm:ml-[20px] md:ml-[20px]'
           style={{ color: "rgba(51, 51, 51, 1)" }}
