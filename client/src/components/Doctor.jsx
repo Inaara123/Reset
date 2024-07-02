@@ -85,7 +85,7 @@ const Doctor = () => {
             >
                 What our patients absolutely love about us!
             </p>
-            <div className='flex flex-row flex-wrap  ml-[10px]  mt-[200px] gap-[40px] xsm:gap-[80px] sm:gap-[60px] md:gap-[40x] lg:gap-[70px] xl:gap-[70px] 2xl:gap-[40px] '
+            <div className='flex flex-row flex-wrap  ml-[10px]  mt-[200px] gap-[40px] xsm:gap-[80px] sm:gap-[60px] md:gap-[40x] lg:gap-[40px] xl:gap-[40px] 2xl:gap-[40px] '
             >
               <div className='h-[630px] w-[420px]   rounded-[30px] shadow-3xl transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none' style={style}>
                 <img src={p2} alt="" className='ml-[150px] mt-[-50px]'/>
