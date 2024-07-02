@@ -75,7 +75,7 @@ const Doctor = () => {
       </div>
         </section>
 
-        <div className='ml-[100px] xsm:ml-[10px] mt-[150px] lg:ml-[100px]'>
+        <div className='ml-[100px] xsm:ml-[10px] mt-[150px] lg:ml-[50px] xl:ml-[50px] 2xl:ml-[100px]'>
           <img src={exp}
           className='mt-[100px]  '/>
         </div>

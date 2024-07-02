@@ -80,7 +80,11 @@ const Services = () => {
       
          {/* chiropractor session component */}
          <div className='mt-[50px] ml-[30px]  flex flex-col'>
-            <p className='lg:text-[48px] md:text-[48px] xsm:text-[30px] sm:text-[48px] xl:text-[54px] 2xl:text-[60px] text-[48px] font-semibold font-outfit'  style={{ color: "rgba(51, 51, 51, 1)" }}> Chiropractic Session</p>
+            <p className='lg:text-[48px] md:text-[48px] xsm:text-[30px] sm:text-[48px] xl:text-[54px] 2xl:text-[60px] text-[48px] font-semibold font-outfit
+            ml-[20px] lg:ml-[300px] xl:ml-[300px] 2xl:ml-[300px]' 
+                          
+             style={{ color: "rgba(51, 51, 51, 1)" }}>
+               Chiropractic Session</p>
             <div className='h-[70px]   w-[970px] rounded-[30px] mt-[20px]
             xsm:w-[350px]
             sm:w-[640px]
@@ -103,8 +107,8 @@ const Services = () => {
                       lg:mt-[18px]'>
                           <img src={line1} alt=""/>
                       </div>
-                      <div className='mt-[-600px] ml-[35px]'>
-                          <img src={line2} alt=""/>
+                      <div className='mt-[-600px] ml-[35px] border-black'>
+                          <img src={line2} alt="" />
                       </div>
                       <motion.div 
                       initial = {{x: "-100%", opacity: 0}}

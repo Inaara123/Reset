@@ -33,7 +33,7 @@ const About = () => {
       <div className='mt-[70px] ml-[30px]'>
         <p 
           className='font-outfit font-bold text-[48px] ml-[30px] lg:ml-[450px] xl:ml-[450px] 2xl:ml-[450px]'
-          style={{ color: "#15155F" }}
+          style={{ color: "rgba(51, 51, 51, 1)" }}
         >
           Neurotherapy
         </p>
@@ -41,7 +41,7 @@ const About = () => {
           className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[100px]
           lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]
           ml-[20px] lg:ml-[250px]'
-          style={{ color: "#15155F" }}
+          style={{ color: "rgba(51, 51, 51, 1)" }}
         >
           <span style={{ color: "#0095D9" }}>Experience </span>
           a new <span style={{ color: "#755CF1" }}>stress free </span>
@@ -201,7 +201,7 @@ const About = () => {
       <div className='mt-[70px] ml-[30px]'>
         <p 
           className='font-outfit font-bold text-[48px] ml-[30px] lg:ml-[450px] xl:ml-[450px] 2xl:ml-[450px]'
-          style={{ color: "#15155F" }}
+          style={{ color: "rgba(51, 51, 51, 1)" }}
         >
           Acupuncture
         </p>
@@ -209,7 +209,7 @@ const About = () => {
           className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[190px] xl:mr-[190px] 2xl:mr-[190px]
           lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]
           ml-[20px] lg:ml-[250px]'
-          style={{ color: "#15155F" }}
+          style={{ color: "rgba(51, 51, 51, 1)" }}
         >
           <span style={{ color: "#00B579" }}>Experience </span>
           the ancient art of healing for a renewed sense of  <span style={{ color: "#2AD4E6" }}> balance </span>
