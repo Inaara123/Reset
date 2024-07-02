@@ -3,9 +3,11 @@
 @tailwind utilities;
 
 body {
-    background-color: #D2E8DB;
+    background-color: 
+    rgba(237, 255, 252, 1);
+   
   }
 
   .navbar-custom {
-    background-color: #D2E8DB; /* Your custom background color */
+    background-color: rgba(83, 88, 111, 0.14); 
   }

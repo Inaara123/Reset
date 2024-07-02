@@ -32,14 +32,15 @@ const About = () => {
       
       <div className='mt-[70px] ml-[30px]'>
         <p 
-          className='font-outfit font-bold text-[48px]'
+          className='font-outfit font-bold text-[48px] ml-[30px] lg:ml-[450px] xl:ml-[450px] 2xl:ml-[450px]'
           style={{ color: "#15155F" }}
         >
           Neurotherapy
         </p>
         <p 
-          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[650px]
-          lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]'
+          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[100px]
+          lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]
+          ml-[20px] lg:ml-[250px]'
           style={{ color: "#15155F" }}
         >
           <span style={{ color: "#0095D9" }}>Experience </span>
@@ -47,8 +48,9 @@ const About = () => {
           calm that you haven't experienced in a long time.
         </p>
         <p 
-          className='mt-[40px] font-outfit font-medium text-[32px] mr-[380px] xsm:mr-[20px] sm:mr-[80px] md:mr-[120px] lg:mr-[380px]
-          lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]'
+          className='mt-[40px] font-outfit font-medium text-[32px] mr-[100px] xsm:mr-[20px] sm:mr-[80px] md:mr-[120px] lg:mr-[100px]
+          lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]
+          ml-[20px] lg:ml-[120px] xl:ml-[120px] 2xl:ml-[120px]'
           style={{ color: "#33730C" }}
         >
           We understand your life is filled with stress, the fast paced life, office deadlines and a 100 other things that are leaving you completely disturbed.
@@ -89,7 +91,7 @@ const About = () => {
       >
         <p 
           className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px] xsm:text-[18px] sm:text-[28px] md:text-[28px] lg:text-[28px]'
-          style={{ color: "#232269" }}
+          style={{ color: "rgba(51, 51, 51, 1)" }}
         >
           Improves Attention and Focus
         </p>
@@ -124,7 +126,7 @@ const About = () => {
         <p
           className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px]
           xsm:text-[18px] sm:text-[28px] md:text-[28px] lg:text-[28px]'
-          style={{ color: "#232269" }}
+          style={{ color: "rgba(51, 51, 51, 1)" }}
         >
           Reduces Anxiety and Depression
         </p>
@@ -159,7 +161,7 @@ const About = () => {
         <p 
           className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px]
           xsm:text-[18px] sm:text-[28px] md:text-[28px] lg:text-[28px]'
-          style={{ color: "#232269" }}
+          style={{ color: "rgba(51, 51, 51, 1)" }}
         >
           Enhances Sleep Quality
         </p>
@@ -198,14 +200,15 @@ const About = () => {
       
       <div className='mt-[70px] ml-[30px]'>
         <p 
-          className='font-outfit font-bold text-[48px]'
+          className='font-outfit font-bold text-[48px] ml-[30px] lg:ml-[450px] xl:ml-[450px] 2xl:ml-[450px]'
           style={{ color: "#15155F" }}
         >
           Acupuncture
         </p>
         <p 
-          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[650px]
-          lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]'
+          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[190px] xl:mr-[190px] 2xl:mr-[190px]
+          lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]
+          ml-[20px] lg:ml-[250px]'
           style={{ color: "#15155F" }}
         >
           <span style={{ color: "#00B579" }}>Experience </span>
@@ -214,9 +217,10 @@ const About = () => {
           <span style={{ color: "#00A4EE" }}> well-being</span> 
         </p>
         <p 
-          className='mt-[30px] font-outfit font-medium text-[32px] mr-[380px] xsm:mr-[10px] sm:mr-[80px] md:mr-[60px] lg:mr-[380px]
-          lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]'
-          style={{ color: "#15155F" }}
+          className='mt-[40px] font-outfit font-medium text-[32px] mr-[100px] xsm:mr-[20px] sm:mr-[80px] md:mr-[120px] lg:mr-[100px]
+          lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]
+          ml-[20px] lg:ml-[120px] xl:ml-[120px] 2xl:ml-[120px]'
+          style={{ color: "#33730C" }}
         >
           We understand that modern life is filled with stress, fast-paced routines, office deadlines, and countless other factors that leave you feeling overwhelmed and out of balance.
         </p>
@@ -256,7 +260,7 @@ const About = () => {
         <p 
           className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px]
            xsm:text-[18px] sm:text-[28px] md:text-[28px] lg:text-[28px]'
-          style={{ color: "#232269" }}
+           style={{ color: "rgba(51, 51, 51, 1)" }}
         >
           Relieves Pain and Discomfort
         </p>
@@ -291,7 +295,7 @@ const About = () => {
         <p 
           className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px]
           xsm:text-[18px] sm:text-[28px] md:text-[28px] lg:text-[28px]'
-          style={{ color: "#232269" }}
+          style={{ color: "rgba(51, 51, 51, 1)" }}
         >
           Reduces Stress and Anxiety
         </p>
@@ -326,7 +330,7 @@ const About = () => {
         <p 
           className='ml-[20px] mt-[4px] font-outfit font-semibold text-[28px]
           xsm:text-[18px] sm:text-[28px] md:text-[28px] lg:text-[28px]'
-          style={{ color: "#232269" }}
+          style={{ color: "rgba(51, 51, 51, 1)" }}
         >
           Boosts Energy and Vitality
         </p>

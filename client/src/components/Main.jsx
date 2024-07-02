@@ -16,19 +16,19 @@ const Main = () => {
 
   return (
     <main className='grid-auto p-4 md:p-8 lg:p-12' >
-      <section className="text-4xl xsm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl mt-[90px] ml-[30px] font-black text-justify max-w-[754px]" style={{ color: "#15155F" }}>
+      <section className="text-4xl xsm:text-3xl font-overlock  md:text-5xl lg:text-6xl xl:text-7xl mt-[90px] ml-[30px] font-black text-justify max-w-[754px]" style={{ color: "#3C3C3C" }}>
         Don’t let your pain stop you from living the life you want!
       </section>
 
       <section>
-        <div className='hidden lg:block w-[295px] h-[295px] mt-[-200px] ml-[982px]   bg-gradient-to-b from-green-100 to-green-300 opacity-100 rounded-[200px] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none gap-[10px]'>
+        <div className='hidden lg:block w-[295px] h-[295px] mt-[-200px] ml-[982px]   bg-gradient-to-b from-green-100 to-green-300 opacity-100 rounded-[200px] border-extra transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none gap-[10px]'>
           <motion.div 
             initial ={{x:'-100%', scale:0}}
             whileInView={{x:0, scale:1, transition: {type: 'spring', duration:0.8, stiffness: 100, damping: 10}}}
-            className='w-[300px] flex-auto h-[80px] rounded-[30px]  shadow-2xl ' style={{backgroundColor:"#3C3C3C"}} >
-            <p className='ml-[26px] flex mt-[30px] ' style={{ color: "#00E89B", font: "outfit", fontWeight: "600", fontSize: "40px" }}>
+            className='w-[340px] flex-auto h-[80px] rounded-[30px]  shadow-2xl ' style={{backgroundColor:"#3C3C3C",}} >
+            <p className='ml-[26px] flex mt-[20px] ' style={{ color: "#00E89B", font: "outfit", fontWeight: "600", fontSize: "40px" }}>
               .
-              <span className='ml-[20px] mt-[15px] font-outfit font-light text-white' style={{ color: "#000000", font: "Patua One", fontWeight: "600", fontSize: "30px" }}>
+              <span className='ml-[20px] mt-[10px] font-overlock font-black  text-white text-[40px]'>
                 No Side Effects
               </span>
             </p>
@@ -39,7 +39,7 @@ const Main = () => {
             className='w-[300px] h-[80px] ml-[110px] rounded-[30px]  shadow-2xl '  style={{backgroundColor:"#3C3C3C"}}>
             <p className='ml-[26px] flex mt-[30px] font-outfit font-light' style={{ color: "#00E89B", font: "outfit", fontWeight: "600", fontSize: "40px" }} >
               .
-              <span className='ml-[20px] mt-[15px] text-white ' style={{ color: "#000000", font: "Patua One", fontWeight: "600", fontSize: "30px" }}>
+              <span className='ml-[20px] mt-[10px] font-overlock font-black  text-white text-[40px]' >
                 Instant Relief
               </span>
             </p>
@@ -50,8 +50,8 @@ const Main = () => {
             className='w-[300px] h-[80px] rounded-[30px]  shadow-2xl' style={{backgroundColor:"#3C3C3C"}}>
             <p className='ml-[26px] flex mt-[30px] font-outfit font-light' style={{ color: "#00E89B", font: "outfit", fontWeight: "600", fontSize: "40px" }}>
               .
-              <span className='ml-[20px] mt-[15px] text-white' style={{ color: "#000000", font: "Patua One", fontWeight: "600", fontSize: "30px" }}>
-                No Side Effects
+              <span className='ml-[20px] mt-[10px] font-overlock font-black  text-white text-[40px]'>
+                No Medicine
               </span>
             </p>
           </motion.div>

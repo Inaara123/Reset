@@ -14,10 +14,12 @@ export default {
       colors: {
         'custom-blue': '#152344', 
         'custome-grey':"#53586F",
-        'custom-black':"#333333"
+        'custom-black':"#333333",
       },
+     
       fontFamily: {
         outfit: ['Outfit', 'sans-serif'],
+        overlock: ['Overlock', 'sans-serif'],
       },
     },
   },

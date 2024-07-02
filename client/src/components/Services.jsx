@@ -39,7 +39,7 @@ const Services = () => {
       title="YouTube video"
     />
 
-      <div className='mt-[30px] text-white ml-[30px]  w-[275px] h-[60px] gap-0 font-[outfit] text-[48px] font-semibold leading-[60.48px] text-justify' >
+      <div className='mt-[30px] text-white ml-[30px] lg:ml-[450px]  w-[275px] h-[60px] gap-0 font-[outfit] text-[48px] font-semibold leading-[60.48px] text-justify' >
         <p style={{color:'#000000'}}> Our Services</p>
       </div>
 
@@ -80,7 +80,7 @@ const Services = () => {
       
          {/* chiropractor session component */}
          <div className='mt-[50px] ml-[30px]  flex flex-col'>
-            <p className='lg:text-[48px] md:text-[48px] xsm:text-[30px] sm:text-[48px] xl:text-[54px] 2xl:text-[60px] text-[48px] font-semibold font-outfit' style={{color:"#15155F"}}> Chiropractic Session</p>
+            <p className='lg:text-[48px] md:text-[48px] xsm:text-[30px] sm:text-[48px] xl:text-[54px] 2xl:text-[60px] text-[48px] font-semibold font-outfit'  style={{ color: "rgba(51, 51, 51, 1)" }}> Chiropractic Session</p>
             <div className='h-[70px]   w-[970px] rounded-[30px] mt-[20px]
             xsm:w-[350px]
             sm:w-[640px]
@@ -94,7 +94,7 @@ const Services = () => {
                               lg:text-[28px]
                               '>
                    Here’s what you will experience after 
-                    <span style={{color:"##A4EA78"}}> One Chiropractic </span> 
+                    <span style={{color:"#A4EA78"}}> One Chiropractic </span> 
                       Session with us</p>
                       <div className='ml-[40px] mt-[18px]
                       xsm:mt-[10px]
@@ -118,7 +118,7 @@ const Services = () => {
                                xsm:text-[16px] xsm:ml-[10px]
                               sm:text-[24px] sm:ml-[40px ]
                               lg:text-[28px] lg:ml-[40px]'
-                                style={{ color: "#232269" }}>
+                                style={{ color: "rgba(51, 51, 51, 1)" }}>
                                 Improved Confidence</p>
                           </motion.div> 
                   </div>
@@ -138,7 +138,7 @@ const Services = () => {
                   xsm:text-[16px] xsm:ml-[10px]
                   sm:text-[24px] sm:ml-[40px]
                   lg:text-[28px] lg:ml-[40px]'
-                  style={{ color: "#232269" }}>
+                  style={{ color: "rgba(51, 51, 51, 1)" }}>
                     80% relief from Sciatica Pain</p>
                   </motion.div> 
                   <div className='mt-[50px] ml-[36px] xsm:mt-[40px] sm:mt-[50px] md-[50px] lg:mt-[50px]'>
@@ -156,7 +156,7 @@ const Services = () => {
                   xsm:text-[16px] xsm:ml-[10px]
                   sm:text-[24px] sm:ml-[40px]
                   lg:text-[28px] lg:ml-[40px]'
-                  style={{ color: "#232269" }}>
+                  style={{ color: "rgba(51, 51, 51, 1)" }}>
                     Your Energy will literally double</p>
                   </motion.div> 
                   <div className='mt-[50px] ml-[36px] xsm:mt-[40px] sm:mt-[50px] md-[50px] lg:mt-[50px]'>
@@ -174,7 +174,7 @@ const Services = () => {
                   xsm:text-[16px] xsm:ml-[10px]
                   sm:text-[24px] sm:ml-[40px]
                   lg:text-[28px] lg:ml-[40px]'
-                  style={{ color: "#232269" }}>
+                  style={{ color: "rgba(51, 51, 51, 1)" }}>
                     Posture Correction, yes Instantly!!</p>
                   </motion.div> 
                   <div className='mt-[50px] ml-[36px] xsm:mt-[40px] sm:mt-[50px] md-[50px] lg:mt-[50px]'>
@@ -192,7 +192,7 @@ const Services = () => {
                   xsm:text-[16px] xsm:ml-[10px]
                   sm:text-[24px] sm:ml-[40px]
                   lg:text-[28px] lg:ml-[40px]'
-                  style={{ color: "#232269" }}>
+                  style={{ color: "rgba(51, 51, 51, 1)" }}>
                     Deep state of calm and relaxation</p>
                   </motion.div> 
                   <div className='mt-[50px] ml-[36px] xsm:mt-[40px] sm:mt-[50px] md-[50px] lg:mt-[50px] '>
@@ -209,7 +209,7 @@ const Services = () => {
                   sm:text-[24px]
                   sm:ml-[20px] lg:ml-[40px]
                   lg:text-[28px]'
-                  style={{ color: "#232269" }}>
+                  style={{ color: "rgba(51, 51, 51, 1)" }}>
                     Your Migraine will disappear... Guaranteed!</p>
                   </motion.div> 
                   <div className='mt-[60px] ml-[36px] xsm:mt-[40px] sm:mt-[60px] md:mt-[60px] lg:mt-[60px] '>
@@ -226,7 +226,7 @@ const Services = () => {
                  xsm:text-[16px] xsm:ml-[10px]
                   sm:text-[24px] sm:ml-[40px]
                   lg:text-[28px] lg:ml-[40px]'
-                  style={{ color: "#232269" }}>
+                  style={{ color: "rgba(51, 51, 51, 1)" }}>
                     Improvement in Sleep Quality</p>
                   </motion.div> 
                   <div className='mt-[60px] ml-[38px] xsm:mt-[60px] sm:mt-[60px] md:mt-[60px] lg:mt-[60px]'>
@@ -244,13 +244,13 @@ const Services = () => {
                  xsm:text-[16px] xsm:ml-[10px]
                   sm:text-[24px] sm:ml-[40px]
                   lg:text-[28px] lg:ml-[40px]'
-                  style={{ color: "#232269" }}>
+                  style={{ color: "rgba(51, 51, 51, 1)" }}>
                     Instant relief from Chronic Back, Neck, Knee and Shoulder Pain</p>
                   </motion.div>  
                 </div>
-          <div className='ml-[30px] mt-[80px]  flex flex-col'>
-          <p className='font-semibold text-[28px] font-outfit text-justify mr-[170px] xsm:mr-[10px] sm:mr-[30px] md:mr-[60px] lg:mr-[170px] xl:mr-[180px] 2xl:mr-[190px] xsm:text-[24px] sm:text-[28px] lg:text-[28px] xl:text-[28px] 2xl:text-[28px]'
-    style={{color:"#33730C"}}>
+          <div className='ml-[50px] xsm:ml-[15px] sm:ml-[30px] md:ml-[30px] lg:ml-[50px] xl:ml-[50px] 2xl:ml-[50px] mt-[80px]  flex flex-col'>
+          <p className='font-semibold text-[28px]  font-outfit text-justify mr-[100px] xsm:mr-[10px] sm:mr-[30px] md:mr-[60px] lg:mr-[100px] xl:mr-[100px] 2xl:mr-[100px] xsm:text-[24px] sm:text-[28px] lg:text-[28px] xl:text-[28px] 2xl:text-[28px]'
+    style={{color:"rgba(51, 115, 12, 1)"}}>
             Not exaggerating, your bad posture is doing more harm than you know, poor blood circulation will mess up your hormonal balance and will cause dysfunction of your crucial hormones like dopamine, serotonin and testosterone. With one session you will restart your hormonal engine and meet the new you.
             </p>
         </div>

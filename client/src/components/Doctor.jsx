@@ -28,7 +28,7 @@ const Doctor = () => {
 
   return (
     <div className=' mt-[30px] grid-auto-fit'>
-        <p className='font-bold text-[40px] ml-[30px] font-outfit '
+        <p className='font-bold text-[40px] ml-[30px] lg:ml-[200px] xl:ml-[200px] 2xl:ml-[200px] font-outfit '
             style={{color:"#333333"}}>Here’s what you need to know about us</p>
         <div className='w-[1300px] h-[700px] rounded-[30px] ml-[30px] mr-[30px] mt-[30px] mb-[30px]
               xsm:w-[350px] xsm:h-[1000px] xsm:ml-[10px]
@@ -80,12 +80,12 @@ const Doctor = () => {
           className='mt-[100px]  '/>
         </div>
         {/* testimonials */}
-        <div className='ml-[30px] mr-[10px] mt-[80px] sm:mt-[200px] md:mt-[200px] lg:mt-[80px] xsm:ml-[10px] sm:ml-[30px] md:ml-[30px] lg:ml-[30px]  '>
-            <p className='font-bold text-custom-black text-[40px] sm:text-[40px] lg:text-[40px] md:text-[40px] 2xl:text-[50px]'
+        <div className='  mr-[10px] mt-[80px] sm:mt-[200px] md:mt-[200px] lg:mt-[80px] xsm:ml-[10px] sm:ml-[30px] md:ml-[30px] lg:ml-[30px]  '>
+            <p className='font-bold text-custom-black text-[40px] sm:text-[40px] lg:text-[40px] md:text-[40px] 2xl:text-[50px]  ml-[20px] lg:ml-[150px] xl:ml-[150px] 2xl:ml-[150px] '
             >
                 What our patients absolutely love about us!
             </p>
-            <div className='flex flex-row flex-wrap  ml-[10px]  mt-[200px] gap-[40px] xsm:gap-[80px] sm:gap-[60px] md:gap-[80x] lg:gap-[40px]'
+            <div className='flex flex-row flex-wrap  ml-[10px]  mt-[200px] gap-[40px] xsm:gap-[80px] sm:gap-[60px] md:gap-[80x] lg:gap-[70px] '
             >
               <div className='h-[630px] w-[420px]   rounded-[30px] shadow-3xl transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none' style={style}>
                 <img src={p2} alt="" className='ml-[150px] mt-[-50px]'/>

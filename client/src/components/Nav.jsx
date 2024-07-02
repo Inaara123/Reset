@@ -6,7 +6,7 @@ const Nav = () => {
   
 
   return (
-    <Navbar className='mt-[35px] h-[100px] bg-black' >
+    <Navbar className='mt-[35px] h-[100px] bg-black navbar navbar-fixed-top' >
       <div className='lg:ml-[-200px]'>
         <img 
           src={logo} 
