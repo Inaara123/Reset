@@ -23,7 +23,7 @@ const Main = () => {
       </section>
 
       <section>
-      <div className='hidden lg:block w-[295px] h-[295px]  mt-[-200px] ml-[982px] lg:ml-[820px] xl:ml-[962px]    opacity-100 rounded-[200px] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none gap-[10px]'
+      <div className='hidden lg:block w-[295px] h-[295px]  mt-[-200px] ml-[982px] lg:ml-[820px] xl:ml-[1000px]    opacity-100 rounded-[200px] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none gap-[10px]'
       >
           <motion.div 
             initial ={{x:'-100%', scale:0}}
@@ -61,12 +61,12 @@ const Main = () => {
         </div>
       </section>
 
-      <div className='text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mt-[-60px] sm:mt-[30px] xsm:mt-[50px] md:mt-[30px] xl:mt-[5px]  ml-[30px] max-w-[1000px]'>
+      <div className='text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mt-[-60px] sm:mt-[30px] xsm:mt-[50px] md:mt-[30px] xl:mt-[-50px]  ml-[30px] max-w-[1000px]'>
         <p>Relieve chronic pain <span style={{ color: "#755CF1", font: "outfit", fontWeight: "700" }}>instantly</span> with the best <span style={{ color: "rgba(74, 159, 22, 1)" }}>chiropractic</span> <br/>
         <span className='xl:ml-[150px] '>and <span style={{ color: "rgba(74, 159, 22, 1)" }}>neuropathy</span> services in Hyderabad!! </span></p>
       </div>
 
-      <div className='mt-[30px] ml-[30px] gap-[10px] flex flex-col sm:flex-row sm:flex-wrap lg:gap-[46px] md:gap-[30px]'>
+      <div className='mt-[30px] ml-[30px] xl:ml-[300px] gap-[10px] flex flex-col sm:flex-row sm:flex-wrap lg:gap-[46px] md:gap-[30px]'>
         <Button 
           onClick={handleClick}
           color="primary"

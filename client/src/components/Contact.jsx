@@ -13,7 +13,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('https://chiropractor-inaara.onrender.com/contacts', {
+      await axios.post('https://reset-espi.onrender.com/contacts', {
         fullName,
         email,
         reason,

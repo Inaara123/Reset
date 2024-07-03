@@ -5,9 +5,18 @@
 body {
     background-color: 
     rgba(237, 255, 252, 1);
+    padding-top: 70px;
    
   }
 
   .navbar-custom {
     background-color: rgba(83, 88, 111, 0.14); 
+  }
+  .navbar-customs {
+    transition: background-color 0.3s, backdrop-filter 0.3s;
+  }
+  
+  .navbar-custom.scrolled {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the color as needed */
+    backdrop-filter: blur(10px);
   }

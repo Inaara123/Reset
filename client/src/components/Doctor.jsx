@@ -59,14 +59,14 @@ const Doctor = () => {
                 <img src={doct} alt="" 
                />
             </div>
-            <div className='w-[300px] font-outfit flex h-[200px] ml-[1000px] mt-[200px] rounded-[30px] shadow-2xl transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none
+            <div className='w-[300px] font-outfit flex h-[200px] ml-[1000px] mt-[200px] rounded-[30px] border-slate-800 shadow-2xl transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none
                            xsm:ml-[50px] xsm:mt-[40px] xsm:w-[250px] xsm:h-[180px]
                            sm:ml-[300px] sm:mt-[-150px] sm:w-[300px] sm:h-[200px]
                             md:ml-[400px] md:mt-[-130px] md:w-[300px] md:h-[200px]
                             lg:ml-[900px] lg:mt-[200px] lg:w-[300px] lg:h-[200px] ' 
-            style={{ backgroundColor: "#3C3C3C" }}>
+          bg-gray-800>
         <div className='ml-[20px]  mt-[10px] mb-[1000px]'>
-          <p className='text-white mt-[10px] xsm:mt-[1px] sm:mt-[10px] md:mt-[10px] lg:mt-[10px]'>Dr Prem Chand Vemula (NT Delhi)</p> 
+          <p className='text-white  mt-[10px] xsm:mt-[1px] sm:mt-[10px] md:mt-[10px] lg:mt-[10px]'>Dr Prem Chand Vemula (NT Delhi)</p> 
           <p className='text-white mt-[20px] xsm:mt-[5px]  sm:mt-[20px] md:mt-[20px] lg:mt-[20px]'>Neuro Therapist</p>
           <p className='text-white mt-[10px] xsm:mt-[1px]  sm:mt-[10px] md:mt-[10px] lg:mt-[10px]'>Therapist Alternative</p>
           <p className='text-white mt-[10px] xsm:mt-[1px]  sm:mt-[10px] md:mt-[10px] lg:mt-[10px]'>Acupuncture Dip</p>

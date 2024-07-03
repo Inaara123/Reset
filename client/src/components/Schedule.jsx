@@ -19,7 +19,7 @@ const Schedule = () => {
     const handleSubmit = async (e) => {
       e.preventDefault();
       try {
-        await axios.post('https://chiropractor-inaara.onrender.com/schedules', {
+        await axios.post('https://reset-espi.onrender.com/schedules', {
           fullName,
           contact,
           date: date.toISOString(), // Convert date to ISO string
@@ -127,7 +127,7 @@ const Schedule = () => {
           </div>
           <div className="mb-4">
             <label htmlFor="notes" className="block font-semibold font-outfit mb-2">
-              Notes
+              Message
             </label>
             <textarea
               id="notes"
@@ -138,7 +138,8 @@ const Schedule = () => {
           </div>
           <button
             type="submit"
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-[30px]"
+            className=" text-white font-bold py-2 px-4 rounded-[30px]"
+            style={{ backgroundColor: "rgba(56, 63, 240, 1)" }}
           >
             Book Appointment
           </button>
