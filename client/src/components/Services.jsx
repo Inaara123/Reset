@@ -39,7 +39,7 @@ const Services = () => {
       title="YouTube video"
     />
 
-      <div className='mt-[30px] text-white ml-[30px] lg:ml-[450px] xl:ml-[550px] xsm:ml-[40pxpx]  w-[275px] h-[60px] gap-0 font-[outfit] text-[48px] font-semibold leading-[60.48px] text-justify' >
+      <div className='mt-[30px] text-white ml-[30px] lg:ml-[450px] xl:ml-[550px] xsm:ml-[40px]  w-[275px] h-[60px] gap-0 font-[outfit] text-[48px] font-semibold leading-[60.48px] text-justify' >
         <p style={{color:'#000000'}}> Our Services</p>
       </div>
 
