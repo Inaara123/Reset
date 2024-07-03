@@ -6,7 +6,7 @@ const Nav = () => {
   
 
   return (
-    <Navbar className='mt-[35px] h-[100px] bg-black navbar navbar-fixed-top' >
+    <Navbar className='mt-[35px] h-[100px] bg-black ' >
       <div className='lg:ml-[-200px]'>
         <img 
           src={logo} 
@@ -67,7 +67,7 @@ const Nav = () => {
               href="#" 
               variant="flat" 
               className='text-white font-outfit font-light text-[18px] -mr-[300px] text-centre hidden lg:block pt-[5px]'
-              style={{backgroundColor:"#5233ED", width:"114px", height:"50px", borderRadius:"30px", color:"#FFFFFF"}}
+              style={{backgroundColor:"rgba(56, 63, 240, 1)", width:"114px", height:"50px", borderRadius:"30px", color:"#FFFFFF"}}
             >
               Contact
             </Button>

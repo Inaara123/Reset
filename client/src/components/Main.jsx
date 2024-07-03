@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from "@nextui-org/react";
 import { useNavigate } from 'react-router-dom';
 import {motion} from 'framer-motion';
+import { MdAddCall } from "react-icons/md";
 
 const Main = () => {
   const navigate = useNavigate();
@@ -21,7 +22,8 @@ const Main = () => {
       </section>
 
       <section>
-      <div className='hidden lg:block w-[295px] h-[295px]  mt-[-200px] ml-[982px] lg:ml-[820px] xl:ml-[962px]   bg-gradient-to-b from-green-100 to-green-300 opacity-100 rounded-[200px] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none gap-[10px]'>
+      <div className='hidden lg:block w-[295px] h-[295px]  mt-[-200px] ml-[982px] lg:ml-[820px] xl:ml-[962px]    opacity-100 rounded-[200px] transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none gap-[10px]'
+      >
           <motion.div 
             initial ={{x:'-100%', scale:0}}
             whileInView={{x:0, scale:1, transition: {type: 'spring', duration:0.8, stiffness: 100, damping: 10}}}
@@ -68,7 +70,7 @@ const Main = () => {
           color="primary"
           className='w-[305px] h-[67px] rounded-[30px] text-[25px] grid-auto-fit bg-[#5233ED] mb-4 sm:mb-0
           xsm:w-[250px] xsm:text-[20px] xsm:h-[55px] '
-          style={{ backgroundColor: "#5233ED", font: "outfit", fontWeight: "600" }}        
+          style={{ backgroundColor: "rgba(56, 63, 240, 1)", font: "outfit", fontWeight: "600" }}        
         >
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-8">
             <path strokeLinecap="round" strokeLinejoin="round" d="M18 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0ZM3 19.235v-.11a6.375 6.375 0 0 1 12.75 0v.109A12.318 12.318 0 0 1 9.374 21c-2.331 0-4.512-.645-6.374-1.766Z" />
@@ -77,10 +79,13 @@ const Main = () => {
         </Button>
         <Button 
           color="primary" 
-          variant="bordered" 
-          className='w-[305px] h-[67px] border-3 border-[#5233ED] text-[#5233ED] rounded-[30px] text-[25px] xsm:w-[250px] xsm:text-[20px] xsm:h-[55px]'
-          style={{ color: "#5233ED", font: "outfit", fontWeight: "600" }}
+          
+          className='w-[305px] h-[67px] rounded-[30px] text-[25px] grid-auto-fit bg-[#5233ED] mb-4 sm:mb-0
+          xsm:w-[250px] xsm:text-[20px] xsm:h-[55px] '
+          style={{ backgroundColor: "rgba(56, 63, 240, 1)", font: "outfit", fontWeight: "600" }}   
           onClick={handleWhatsAppClick}>
+          <MdAddCall  className='ml-[-20px]'
+         />
           
           Contact us
         </Button>

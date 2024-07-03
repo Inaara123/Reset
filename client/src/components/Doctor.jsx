@@ -34,7 +34,7 @@ const Doctor = () => {
               xsm:w-[350px] xsm:h-[1000px] xsm:ml-[10px]
                sm:w-[600px] sm:h-[1000px] sm:ml-[30px]
                md:w-[800px] md:h-[1000px] md:ml-[30px]
-                lg:w-[1300px] lg:h-[700px] lg:ml-[30px]'
+                lg:w-[1220px] lg:h-[700px] lg:ml-[30px]'
         style={{backgroundColor:"#717171"}}>  
         </div>
         <section >
@@ -42,7 +42,7 @@ const Doctor = () => {
                             xsm:w-[330px] xsm:ml-[20px] xsm:mt-[-980px]
                             sm:w-[550px] sm:ml-[50px] sm:mt-[-980px]
                             md:w-[650px] md:ml-[100px]
-                            lg:w-[800px] lg:ml-[100px] lg:mt-[-680px]'>
+                            lg:w-[700px] lg:ml-[100px] lg:mt-[-680px]'>
                 <p className='ml-[30px] font-outfit mr-[30px] mt-[50px] text-justify font-meduim text-[26px]
                                 xsm:text-[16px]
                                sm:text-[21px]
@@ -54,7 +54,7 @@ const Doctor = () => {
                              xsm:w-[150px] xsm:h-[150px] xsm:ml-[100px] xsm:mt-[20px]
                             sm:w-[150px] sm:h-[150px] sm:ml-[50px] sm:mt-[100px]
                             md:w-[230px] md:ml-[100px]
-                            lg:w-[300px] lg:h-[200px] lg:ml-[1000px] lg:mt-[-550px]'
+                            lg:w-[300px] lg:h-[200px] lg:ml-[900px] lg:mt-[-550px]'
             style={{backgroundColor:"#3A24A8"}}>
                 <img src={doct} alt="" 
                />
@@ -63,7 +63,7 @@ const Doctor = () => {
                            xsm:ml-[50px] xsm:mt-[40px] xsm:w-[250px] xsm:h-[180px]
                            sm:ml-[300px] sm:mt-[-150px] sm:w-[300px] sm:h-[200px]
                             md:ml-[400px] md:mt-[-130px] md:w-[300px] md:h-[200px]
-                            lg:ml-[1000px] lg:mt-[200px] lg:w-[300px] lg:h-[200px] ' 
+                            lg:ml-[900px] lg:mt-[200px] lg:w-[300px] lg:h-[200px] ' 
             style={{ backgroundColor: "#3C3C3C" }}>
         <div className='ml-[20px]  mt-[10px] mb-[1000px]'>
           <p className='text-white mt-[10px] xsm:mt-[1px] sm:mt-[10px] md:mt-[10px] lg:mt-[10px]'>Dr Prem Chand Vemula (NT Delhi)</p> 

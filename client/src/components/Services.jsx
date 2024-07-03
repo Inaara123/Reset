@@ -27,7 +27,7 @@ const Services = () => {
   return (
 
     <main >
-        <div className='ml-0 mt-[50px] w-auto flex flex-col ' style={styles} >
+        <div className='ml-0 mt-[50px] w-auto flex flex-col  ' style={styles} >
         <iframe
       className="mt-[100px] ml-[100px] w-auto mr-[100px] h-[500px] aspect-video rounded-lg border bg-black sm:h-[300px] md:h-[350px] lg:h-[500px] xl:h-[600px]  xsm:h-[250px] 
     xsm:ml-[50px] 
