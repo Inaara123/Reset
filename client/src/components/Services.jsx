@@ -39,7 +39,7 @@ const Services = () => {
       title="YouTube video"
     />
 
-      <div className='mt-[30px] text-white ml-[30px] lg:ml-[450px] xl:ml-[550px] xsm:ml-[100px]  w-[275px] h-[60px] gap-0 font-[outfit] text-[48px] font-semibold leading-[60.48px] text-justify' >
+      <div className='mt-[30px] text-white ml-[30px] lg:ml-[450px] xl:ml-[550px] xsm:ml-[40pxpx]  w-[275px] h-[60px] gap-0 font-[outfit] text-[48px] font-semibold leading-[60.48px] text-justify' >
         <p style={{color:'#000000'}}> Our Services</p>
       </div>
 
@@ -81,7 +81,7 @@ const Services = () => {
          {/* chiropractor session component */}
          <div className='mt-[50px] ml-[30px]  flex flex-col'>
             <p className='lg:text-[48px] md:text-[48px] xsm:text-[30px] sm:text-[48px] xl:text-[54px] 2xl:text-[60px] text-[48px] font-semibold font-outfit
-            ml-[20px] lg:ml-[300px] xl:ml-[400px] 2xl:ml-[300px] xsm:ml-[70px]' 
+            ml-[20px] lg:ml-[300px] xl:ml-[400px] 2xl:ml-[300px] xsm:ml-[20px]' 
                           
              style={{ color: "rgba(51, 51, 51, 1)" }}>
                Chiropractic Session</p>
