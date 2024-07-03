@@ -3,6 +3,7 @@ import { Button } from "@nextui-org/react";
 import { useNavigate } from 'react-router-dom';
 import {motion} from 'framer-motion';
 import { MdAddCall } from "react-icons/md";
+import { MdOutlinePermContactCalendar } from "react-icons/md";
 
 const Main = () => {
   const navigate = useNavigate();
@@ -18,7 +19,7 @@ const Main = () => {
   return (
     <main className='grid-auto p-4 md:p-8 lg:p-12' >
       <section className="text-4xl xsm:text-3xl font-overlock  md:text-5xl lg:text-6xl xl:text-7xl mt-[90px] ml-[30px] font-black text-justify max-w-[754px]" style={{ color: "#3C3C3C" }}>
-        Don’t let your pain stop you from living the life you want!
+        Don’t let your pain stop you from living the life <span className='xl:ml-[200px]'>you want!</span>
       </section>
 
       <section>
@@ -60,8 +61,9 @@ const Main = () => {
         </div>
       </section>
 
-      <div className='text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mt-[-60px] sm:mt-[30px] xsm:mt-[50px] md:mt-[30px]  ml-[30px] max-w-[800px]'>
-        <p>Relieve chronic pain <span style={{ color: "#755CF1", font: "outfit", fontWeight: "700" }}>instantly</span> with the best <span style={{ color: "#21A5B4" }}>chiropractic</span> and <span style={{ color: "#00B579" }}>neuropathy</span> services in Hyderabad!!</p>
+      <div className='text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mt-[-60px] sm:mt-[30px] xsm:mt-[50px] md:mt-[30px] xl:mt-[5px]  ml-[30px] max-w-[1000px]'>
+        <p>Relieve chronic pain <span style={{ color: "#755CF1", font: "outfit", fontWeight: "700" }}>instantly</span> with the best <span style={{ color: "rgba(74, 159, 22, 1)" }}>chiropractic</span> <br/>
+        <span className='xl:ml-[150px] '>and <span style={{ color: "rgba(74, 159, 22, 1)" }}>neuropathy</span> services in Hyderabad!! </span></p>
       </div>
 
       <div className='mt-[30px] ml-[30px] gap-[10px] flex flex-col sm:flex-row sm:flex-wrap lg:gap-[46px] md:gap-[30px]'>
@@ -72,9 +74,7 @@ const Main = () => {
           xsm:w-[250px] xsm:text-[20px] xsm:h-[55px] '
           style={{ backgroundColor: "rgba(56, 63, 240, 1)", font: "outfit", fontWeight: "600" }}        
         >
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-8">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M18 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0ZM3 19.235v-.11a6.375 6.375 0 0 1 12.75 0v.109A12.318 12.318 0 0 1 9.374 21c-2.331 0-4.512-.645-6.374-1.766Z" />
-          </svg>
+          <MdOutlinePermContactCalendar />
           Book a Session
         </Button>
         <Button 

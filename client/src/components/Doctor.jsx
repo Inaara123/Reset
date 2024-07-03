@@ -28,9 +28,9 @@ const Doctor = () => {
 
   return (
     <div className=' mt-[30px] grid-auto-fit'>
-        <p className='font-bold text-[40px] ml-[30px] lg:ml-[200px] xl:ml-[200px] 2xl:ml-[200px] font-outfit '
+        <p className='font-bold text-[40px] ml-[30px] lg:ml-[200px] xl:ml-[300px] 2xl:ml-[200px] font-outfit '
             style={{color:"#333333"}}>Here’s what you need to know about us</p>
-        <div className='w-[1300px] h-[700px] rounded-[30px] ml-[30px] mr-[30px] mt-[30px] mb-[30px]
+        <div className='w-[1300px] h-[700px] rounded-[30px] ml-[30px]  mr-[30px] mt-[30px] mb-[30px]
               xsm:w-[350px] xsm:h-[1000px] xsm:ml-[10px]
                sm:w-[600px] sm:h-[1000px] sm:ml-[30px]
                md:w-[800px] md:h-[1000px] md:ml-[30px]
@@ -81,7 +81,7 @@ const Doctor = () => {
         </div>
         {/* testimonials */}
         <div className='  mr-[10px] mt-[80px] sm:mt-[200px] md:mt-[200px] lg:mt-[80px] xsm:ml-[10px] sm:ml-[30px] md:ml-[30px] lg:ml-[30px]  '>
-            <p className='font-bold text-custom-black text-[40px] sm:text-[40px] lg:text-[40px] md:text-[40px] 2xl:text-[50px]  ml-[20px] lg:ml-[150px] xl:ml-[150px] 2xl:ml-[150px] '
+            <p className='font-bold text-custom-black text-[40px] sm:text-[40px] lg:text-[40px] md:text-[40px] 2xl:text-[50px]  ml-[20px] lg:ml-[150px] xl:ml-[250px] 2xl:ml-[150px] '
             >
                 What our patients absolutely love about us!
             </p>

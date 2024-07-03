@@ -32,25 +32,25 @@ const About = () => {
       
       <div className='mt-[70px] ml-[30px]'>
         <p 
-          className='font-outfit font-bold text-[48px] ml-[30px] lg:ml-[450px] xl:ml-[450px] 2xl:ml-[450px]'
+          className='font-outfit font-bold text-[48px] ml-[30px] lg:ml-[450px]  xl:ml-[550px] 2xl:ml-[450px]'
           style={{ color: "rgba(51, 51, 51, 1)" }}
         >
           Neurotherapy
         </p>
         <p 
-          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[100px] xl:mr-[130px] 2xl:mr-[180px]
+          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[100px] xl:mr-[350px] 2xl:mr-[180px]
           lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]
-          ml-[20px] lg:ml-[250px] xl:ml-[250px] 2xl:ml-[250px] xsm:ml-[20px] sm:ml-[20px] md:ml-[20px]'
+          ml-[20px] lg:ml-[250px] xl:ml-[350px] 2xl:ml-[250px] xsm:ml-[20px] sm:ml-[20px] md:ml-[20px]'
           style={{ color: "rgba(51, 51, 51, 1)" }}
         >
           <span style={{ color: "#0095D9" }}>Experience </span>
           a new <span style={{ color: "#755CF1" }}>stress free </span>
-          calm that you haven't experienced in a long time.
+          calm that you haven't <span>experienced in a long time.</span> 
         </p>
         <p 
-          className='mt-[40px] font-outfit font-medium text-[32px] mr-[100px] xsm:mr-[20px] sm:mr-[80px] md:mr-[120px] lg:mr-[100px]
+          className='mt-[40px] font-outfit font-medium text-[32px] mr-[100px] xsm:mr-[20px] sm:mr-[80px] md:mr-[120px] lg:mr-[100px] xl:mr-[200px]
           lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]
-          ml-[20px] lg:ml-[120px] xl:ml-[120px] 2xl:ml-[120px]'
+          ml-[20px] lg:ml-[120px] xl:ml-[200px] 2xl:ml-[120px]'
           style={{ color: "#33730C" }}
         >
           We understand your life is filled with stress, the fast paced life, office deadlines and a 100 other things that are leaving you completely disturbed.
@@ -200,15 +200,15 @@ const About = () => {
       
       <div className='mt-[70px] ml-[30px]'>
         <p 
-          className='font-outfit font-bold text-[48px] ml-[30px] lg:ml-[450px] xl:ml-[450px] 2xl:ml-[450px]'
+          className='font-outfit font-bold text-[48px] ml-[30px] lg:ml-[450px] xl:ml-[550px] 2xl:ml-[450px]'
           style={{ color: "rgba(51, 51, 51, 1)" }}
         >
           Acupuncture
         </p>
         <p 
-          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[190px] xl:mr-[260px] 2xl:mr-[260px]
+          className='font-outfit font-medium text-[32px] mt-[32px] mr-[650px] xsm:mr-[20px] sm:mr-[100px] md:mr-[150px] lg:mr-[190px] xl:mr-[300px] 2xl:mr-[260px]
           lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]
-          ml-[20px] lg:ml-[250px] xl:ml-[250px] 2xl:ml-[250px] xsm:ml-[20px] sm:ml-[20px] md:ml-[20px]'
+          ml-[20px] lg:ml-[250px] xl:ml-[350px] 2xl:ml-[250px] xsm:ml-[20px] sm:ml-[20px] md:ml-[20px]'
           style={{ color: "rgba(51, 51, 51, 1)" }}
         >
           <span style={{ color: "#00B579" }}>Experience </span>
@@ -219,7 +219,7 @@ const About = () => {
         <p 
           className='mt-[40px] font-outfit font-medium text-[32px] mr-[100px] xsm:mr-[20px] sm:mr-[80px] md:mr-[120px] lg:mr-[100px]
           lg:text-[32px] md:text-[32px] sm:text-[32px] xsm:text-[28px]
-          ml-[20px] lg:ml-[120px] xl:ml-[120px] 2xl:ml-[120px]'
+          ml-[20px] lg:ml-[120px] xl:ml-[180px] 2xl:ml-[120px]'
           style={{ color: "#33730C" }}
         >
           We understand that modern life is filled with stress, fast-paced routines, office deadlines, and countless other factors that leave you feeling overwhelmed and out of balance.
